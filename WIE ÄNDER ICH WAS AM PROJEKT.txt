@@ -1,0 +1,16 @@
+Schritt 1: 
+src in intellij öffnen
+
+Schritt 2:
+Code ändern
+
+Schritt 4:
+cmd öffnen
+in hauptordner cd'n
+diesen command eingeben:
+mvn org.apache.maven.plugins:maven-assembly-plugin:2.6:assembly -DdescriptorId=jar-with-dependencies package
+
+Schritt 5:
+Adden
+Commiten
+Pushen
