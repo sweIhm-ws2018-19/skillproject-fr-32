@@ -29,10 +29,10 @@ public class HelpIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Du kannst mir Deine Lieblingsfarbe sagen. Sage zum Beispiel, meine Lieblingsfarbe ist rot.";
-        String repromptText = "Bitte sage mir Deine Lieblingsfarbe.";
+        String speechText = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum, alleine oder gegen deine Freunde Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores. Wie viele Spieler spielen mit?";
+        String repromptText = "Wie viele Spieler spielen mit?";
         return input.getResponseBuilder()
-                .withSimpleCard("ColorSession", speechText)
+                .withSimpleCard("Magische Zitate Raten", speechText)
                 .withSpeech(speechText)
                 .withReprompt(repromptText)
                 .withShouldEndSession(false)
