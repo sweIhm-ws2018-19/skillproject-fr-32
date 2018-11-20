@@ -30,7 +30,7 @@ public class CancelandStopIntentHandler implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
         return input.getResponseBuilder()
-                .withSpeech("Komm morgen wieder, um die Erfahrung wieder zu spielen. Sag einfach \"Alexa, öffne Magische Zitate Raten \" <break time=\"0.05s\" />, um den Skill erneut zu öffnen.")
+                .withSpeech("Komm morgen wieder, um die Erfahrung wieder zu spielen. Sag einfach \"Alexa, Öffne Magische Zitate Raten \" <break time=\"0.05s\" />, um den Skill erneut zu Öffnen.")
                 .withSimpleCard("Magische Zitate Raten", "Auf Wiedersehen")
                 .build();
     }
