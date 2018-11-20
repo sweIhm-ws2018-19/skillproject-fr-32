@@ -29,8 +29,8 @@ public class HelpIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum, alleine oder gegen deine Freunde Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores. Möchtest du die Erfahrung beginnen?";
-        String repromptText = "Möchtest du die Erfahrung beginnen?";
+        String speechText = "Hallo! In diesem Spiel geht es darum, alleine oder gegen deine Freunde Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores. MÃ¶chtest du die Erfahrung beginnen?";
+        String repromptText = "MÃ¶chtest du die Erfahrung beginnen?";
         return input.getResponseBuilder()
                 .withSimpleCard("Magische Zitate Raten Hilfe", speechText)
                 .withSpeech(speechText)
