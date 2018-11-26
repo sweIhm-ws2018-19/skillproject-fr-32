@@ -30,10 +30,9 @@ public class LaunchRequestHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Hallo. Ich lerne Deine Lieblingsfarbe. Bitte sage mir zum Beispiel: Meine Lieblingsfarbe ist blau.";
-        String repromptText = "Bitte nenne Deine Lieblingsfarbe.";
+        String speechText = "Magsiche Zitate Raten. Wie viele Spieler spielen mit?";
+        String repromptText = "Wie viele Spieler?";
         return input.getResponseBuilder()
-                .withSimpleCard("ColorSession", speechText)
                 .withSpeech(speechText)
                 .withReprompt(repromptText)
                 .build();
