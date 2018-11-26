@@ -1,5 +1,7 @@
 # Magische Zitate Raten - Das Quiz zu deinen liebsten Disney Helden!
 
+![](https://media0.faz.net/ppmedia/aktuell/wirtschaft/unternehmen/146657517/1.5572860/format_top1_breit/angst-vor-datendiebstahl.jpg)
+
 Eine AWS Lambda Funktion, zum spaßigen Zeitvertreib unter Kindern und Junggebliebenen. 
 In diesem Spiel geht es darum, Quizfragen richtig zu beantworten, um an der Spitze des High-Scores zu stehen!
 
