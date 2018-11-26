@@ -13,9 +13,9 @@ In diesem Spiel geht es darum, Quizfragen richtig zu beantworten, um an der Spit
 
 Das Spiel wird durch den Aufruf "Alexa, öffne Magische Zitate Raten" gestartet.
 
-* Der Skill begrüßt den User und fragt, wie viele Spieler teilnehmen.
+* Alexa begrüßt den User und fragt, wie viele Spieler teilnehmen.
 * Anschließend wird darum gebeten, die Schwierigkeitsstufe zu wählen. Es gibt leicht/mittel/schwer.
-* Darauf wird gefragt, ob die Regeln zum Spiel zu guter letzt erklärt werden sollen.
+* Darauf wird gefragt, ob die Regeln zum Spiel erklärt werden sollen.
 * Darauf folgend beginnt Alexa den ersten Spieler ein Zitat zu nennen und gibt ihm 3 Filmtitel zur Auswahl.
 * Hat der Spieler das Zitat dem richtigen Film zugeordnet, bekommt er einen Punkt. 
 * In der nächsten Runde wird der andere Spieler zu einem neuen Zitat befragt. 
