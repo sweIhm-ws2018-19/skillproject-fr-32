@@ -26,13 +26,18 @@ public class SetOnePlayerIntent implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("SetOnePlayerIntent"));
+        return input.matches(intentName("SetOnePlayerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.SELECT_STATE)));
     }
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String responseText = "Alles klar. Sie sind ein Spieler.";
-        AnswerIntentHandler.PLAYERS = 1;
+
+        Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
+        sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_ONE_PLAYER);
+        sessionAttributes.put(Attributes.COUNTER_KEY, 1);
+        sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, 0);
+
+        String responseText = "Alles klar. Sie sind ein Spieler. Sag los um mit dem Spiel zu beginnen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
                 .withShouldEndSession(false)

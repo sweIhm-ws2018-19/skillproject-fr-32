@@ -27,14 +27,22 @@ public class SetTwoPlayerIntent implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("SetTwoPlayerIntent"));
+        return input.matches(intentName("SetTwoPlayerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.SELECT_STATE)));
     }
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        String responseText = "Alles klar. Sie sind 2 spieler.";
-        AnswerIntentHandler.PLAYERS = 2;
+        Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
+        sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_TWO_PLAYER);
+        sessionAttributes.put(Attributes.PLAYER_NUMBER_KEY, 1);
+        sessionAttributes.put(Attributes.COUNTER_PLAYER_ONE, 1);
+        sessionAttributes.put(Attributes.COUNTER_PLAYER_TWO, 1);
+        sessionAttributes.put(Attributes.COUNTER_KEY, 1);
+        sessionAttributes.put(Attributes.QUIZ_SCORE_FIRST, 1);
+        sessionAttributes.put(Attributes.QUIZ_SCORE_SECOND, 0);
+
+        String responseText = "Alles klar. Sie sind 2 spieler. Bitte sagen sie aufgehts um mit dem Spiel zu beginnen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
                 .withShouldEndSession(false)

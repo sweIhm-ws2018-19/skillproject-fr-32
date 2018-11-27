@@ -18,7 +18,7 @@ public class RepeatIntentHandler implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("AMAZON.RepeatIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.QUIZ_STATE)));
+        return input.matches(intentName("AMAZON.RepeatIntent"));
     }
 
     @Override

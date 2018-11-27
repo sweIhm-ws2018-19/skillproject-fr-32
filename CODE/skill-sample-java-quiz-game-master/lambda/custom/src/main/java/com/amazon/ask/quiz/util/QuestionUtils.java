@@ -42,6 +42,7 @@ public class QuestionUtils {
                 .withSpeech(speech)
                 .withReprompt(question)
                 .withShouldEndSession(false)
+                .withShouldEndSession(false)
                 .build();
     }
 

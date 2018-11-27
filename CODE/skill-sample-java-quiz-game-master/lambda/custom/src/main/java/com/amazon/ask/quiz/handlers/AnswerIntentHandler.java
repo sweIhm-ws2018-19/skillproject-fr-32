@@ -26,11 +26,10 @@ public class AnswerIntentHandler implements RequestHandler {
 
     private static final Random RANDOM = new Random();
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    public static int PLAYERS = 0;
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("AnswerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.QUIZ_STATE)));
+        return false;
     }
 
     @Override
@@ -46,6 +45,7 @@ public class AnswerIntentHandler implements RequestHandler {
         StateProperty stateProperty = StateProperty.valueOf((String) sessionAttributes.get(Attributes.QUIZ_PROPERTY_KEY));
         int counter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
         int quizScore = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY);
+        int playerNumber = (int) sessionAttributes.get(Attributes.PLAYER_NUMBER_KEY);
 
         IntentRequest intentRequest = (IntentRequest) input.getRequestEnvelope().getRequest();
         boolean correct = compareSlots(intentRequest.getIntent().getSlots(), getPropertyOfState(stateProperty, state));
@@ -60,12 +60,12 @@ public class AnswerIntentHandler implements RequestHandler {
 
         responseText += getAnswerText(stateProperty, state);
 
-        if (counter < PLAYERS) {
-            responseText += "Your current score is " + quizScore + " out of " + counter + ". ";
+        if (counter < 10) {
+            responseText += "Your current score is " + quizScore + " out of " + counter + ". "+ ". The player number is: " + playerNumber + ".";;
             sessionAttributes.put(Attributes.RESPONSE_KEY, responseText);
             return QuestionUtils.generateQuestion(input);
         } else {
-            responseText += "Your final score is " + quizScore + " out of " + counter + ". ";
+            responseText += "Your final score is " + quizScore + " out of " + counter + ". "+ ". The player number is: " + playerNumber + ".";;
             speechOutput = responseText + " " + Constants.EXIT_SKILL_MESSAGE;
             return input.getResponseBuilder()
                     .withSpeech(speechOutput)

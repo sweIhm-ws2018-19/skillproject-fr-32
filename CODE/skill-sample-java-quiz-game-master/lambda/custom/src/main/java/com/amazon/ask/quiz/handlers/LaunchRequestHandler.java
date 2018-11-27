@@ -16,13 +16,17 @@ public class LaunchRequestHandler implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(requestType(LaunchRequest.class));
+
+        return (input.matches(requestType(LaunchRequest.class)));
     }
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
-        sessionAttributes.put(Attributes.STATE_KEY, Attributes.START_STATE);
+        sessionAttributes.put(Attributes.STATE_KEY, Attributes.SELECT_STATE);
+
+
+
         return input.getResponseBuilder()
                 .withSpeech(Constants.WELCOME_MESSAGE)
                 .withReprompt(Constants.HELP_MESSAGE)

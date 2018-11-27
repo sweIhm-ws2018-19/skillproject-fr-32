@@ -20,7 +20,7 @@ public class NoAnswerIntentHandler implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("AnswerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.QUIZ_STATE).negate()));
+        return false;
     }
 
     @Override

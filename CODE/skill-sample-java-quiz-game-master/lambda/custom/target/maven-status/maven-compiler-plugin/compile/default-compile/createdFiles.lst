@@ -1,12 +1,17 @@
+com\amazon\ask\quiz\util\Question.class
 com\amazon\ask\quiz\handlers\QuizAndStartOverIntentHandler.class
+com\amazon\ask\quiz\util\QuestionDatabase.class
 com\amazon\ask\quiz\handlers\AnswerIntentHandler$1.class
+com\amazon\ask\quiz\handlers\GamePlayIntentTwoPlayers.class
 com\amazon\ask\quiz\util\QuestionUtils$1.class
 com\amazon\ask\quiz\handlers\AnswerIntentHandler.class
 com\amazon\ask\quiz\handlers\RepeatIntentHandler.class
+com\amazon\ask\quiz\util\QuestionPack.class
 com\amazon\ask\quiz\handlers\SessionEndedHandler.class
 com\amazon\ask\quiz\model\StateProperty.class
 com\amazon\ask\quiz\util\QuestionUtils.class
 com\amazon\ask\quiz\handlers\NoAnswerIntentHandler.class
+com\amazon\ask\quiz\handlers\GamePlayIntent.class
 com\amazon\ask\quiz\handlers\LaunchRequestHandler.class
 com\amazon\ask\quiz\handlers\ExitSkillHandler.class
 com\amazon\ask\quiz\handlers\HelpIntentHandler.class
