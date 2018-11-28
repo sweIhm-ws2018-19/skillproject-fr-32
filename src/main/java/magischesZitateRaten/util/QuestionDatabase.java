@@ -28,7 +28,7 @@ public class QuestionDatabase
     public static ArrayList<Question> middleQuestions = new ArrayList<>();
     public static ArrayList<Question> hardQuestions = new ArrayList<>();
     private Random random = new Random();
-    ArrayList<Integer> alreadyAsked = new ArrayList<>();
+    public static ArrayList<Integer> alreadyAsked = new ArrayList<>();
 
     public static void initialize() {
         easyQuestions.add(new Question("Peter Pan", "Nimm mich mit nach Nimmerland."));
