@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="022bb6b5-8527-48a3-9d1e-d48d0ccc48d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+            <state relative-caret-position="340">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="111" selection-end-column="9" />
+            <state relative-caret-position="879">
+              <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="304">
+              <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionPack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="375">
               <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,13 +136,13 @@
         <option value="$PROJECT_DIR$/test/java/TestQuestionDatabase.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java" />
         <option value="$PROJECT_DIR$/test/java/TestInitializedDatabase.java" />
-        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" />
         <option value="$PROJECT_DIR$/test/java/TestDistinctAskOrder.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java" />
         <option value="$PROJECT_DIR$/test/java/TestQuestion.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" />
+        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" />
       </list>
     </option>
   </component>
@@ -266,12 +267,12 @@
       <updated>1543417541529</updated>
       <workItem from="1543417542845" duration="1710000" />
       <workItem from="1543422259520" duration="9098000" />
-      <workItem from="1543432011354" duration="1009000" />
+      <workItem from="1543432011354" duration="1559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11817000" />
+    <option name="totallyTimeSpent" value="12367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -422,9 +423,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionPack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="375">
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -434,28 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="111" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

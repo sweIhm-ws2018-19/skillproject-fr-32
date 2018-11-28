@@ -42,6 +42,14 @@ public class GamePlayIntent implements RequestHandler {
         {
             String rightmovie = (String) sessionAttributes.get(Attributes.RIGHT_MOVIE);
             responseText += rightmovie + " ist richtig! Sie haben " + (counter - 1) + " von " + (counter - 1) + " Fragen richtig beantwortet. ";
+
+            if((counter - 1) < 10) {
+                responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+                return input.getResponseBuilder()
+                        .withSpeech(responseText)
+                        .withShouldEndSession(true)
+                        .build();
+            }
         }
 
         QuestionPack qp = QuestionDatabase.generateQuestionPack();
@@ -59,7 +67,7 @@ public class GamePlayIntent implements RequestHandler {
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
         sessionAttributes.put(Attributes.RIGHT_MOVIE, Movie);
 
-        if((counter - 1) < 10) {
+        if((counter - 1) < 20) {
             return input.getResponseBuilder()
                     .withSpeech(responseText)
                     .withShouldEndSession(false)
