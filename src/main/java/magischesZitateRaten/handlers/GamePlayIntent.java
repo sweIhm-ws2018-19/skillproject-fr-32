@@ -44,7 +44,7 @@ public class GamePlayIntent implements RequestHandler {
             responseText += rightmovie + " ist richtig! Sie haben " + (counter - 1) + " von " + (counter - 1) + " Fragen richtig beantwortet. ";
 
             if((counter - 1) < 10) {
-                responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+                responseText += " 10 Fragen wurden gestellt UWU. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
                 return input.getResponseBuilder()
                         .withSpeech(responseText)
                         .withShouldEndSession(true)
@@ -74,7 +74,7 @@ public class GamePlayIntent implements RequestHandler {
                     .build();
         } else
         {
-            responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+            responseText += " 10 Fragen wurden gestellt OWO. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
             return input.getResponseBuilder()
                     .withSpeech(responseText)
                     .withShouldEndSession(true)
