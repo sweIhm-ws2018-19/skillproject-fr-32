@@ -29,7 +29,7 @@ import static com.amazon.ask.request.Predicates.sessionAttribute;
 public class TestQu {
 
     @Test
-    public void initializeDatabaseTest() {
+    public void TestQuestion() {
 
 
         // assert statements
