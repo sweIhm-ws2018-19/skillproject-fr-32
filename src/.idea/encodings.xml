@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/QuizSkillStreamHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ExitSkillHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HelpIntentHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/LaunchRequestHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/QuizAndStartOverIntentHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/RepeatIntentHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SessionEndedHandler.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Attributes.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/Question.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionPack.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/java/TestUninitializedDatabase.java" charset="ISO-8859-1" />
+  </component>
 </project>
