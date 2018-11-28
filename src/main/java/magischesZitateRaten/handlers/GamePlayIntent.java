@@ -59,7 +59,7 @@ public class GamePlayIntent implements RequestHandler {
         String fakeOne = qp.getFakeMovieOne();
         String fakeTwo = qp.getFakeMovieTwo();
 
-        responseText += "Das " + counter + "te Zitat lautet gefolgt. " + Quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + Movie + ". Möglichkeit 3 " + fakeTwo + ".";
+        responseText += "Das " + counter + "te Zitat lautet gefolgt. " + Quote + " M?glichkeit 1 " + fakeOne + ". M?glichkeit 2 " + Movie + ". M?glichkeit 3 " + fakeTwo + ".";
         responseText += " Dies ist eine Beta. Antworte mit Test um fortzufahren.";
 
         counter++;
