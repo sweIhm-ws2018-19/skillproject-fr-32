@@ -46,6 +46,7 @@ public class TestInitializedDatabase {
         easyQuestions.add(new Question("Rapunzel Neu Verf?hnt", "Blume leuchtend sch?n, kann so m?chtig sein. Dreh die Zeit zur?ck, gib mir was einst was mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
         easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter B?r!"));
+        easyQuestions.add(new Question("Alice im Wunderland", "Ich wurde geschrumpft, gestreckt, gekratzt und in eine Teekanne gesteckt."));
 
         ArrayList<Question> middleQuestions = new ArrayList<>();
         middleQuestions.add(new Question("Winnieh Puuh", "Menschen sagen, nichts ist unm?glich, aber ich mache jeden Tag nichts."));
@@ -74,10 +75,10 @@ public class TestInitializedDatabase {
         // assert statements
         for(int i = 0; i < 10; i++)
         {
-            if(i < 9) {
-                assertEquals(testerEasy.get(i).getMovie(), easyQuestions.get(i).getMovie());
-                assertEquals(testerEasy.get(i).getQuote(), easyQuestions.get(i).getQuote());
-            }
+
+            assertEquals(testerEasy.get(i).getMovie(), easyQuestions.get(i).getMovie());
+            assertEquals(testerEasy.get(i).getQuote(), easyQuestions.get(i).getQuote());
+
 
             assertEquals(testerMiddle.get(i).getMovie(), middleQuestions.get(i).getMovie());
             assertEquals(testerMiddle.get(i).getQuote(), middleQuestions.get(i).getQuote());

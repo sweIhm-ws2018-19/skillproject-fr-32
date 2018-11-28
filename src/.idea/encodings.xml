@@ -18,6 +18,7 @@
     <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionPack.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/java/TestQuestionDatabase.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/test/java/TestUninitializedDatabase.java" charset="ISO-8859-1" />
   </component>
 </project>

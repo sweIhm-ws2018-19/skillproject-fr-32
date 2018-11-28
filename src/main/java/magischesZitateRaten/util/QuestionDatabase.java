@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Random;
 import com.amazon.ask.quiz.model.Constants;
+import java.util.Collections;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -28,9 +29,18 @@ public class QuestionDatabase
     public static ArrayList<Question> middleQuestions = new ArrayList<>();
     public static ArrayList<Question> hardQuestions = new ArrayList<>();
     private static Random random = new Random();
-    public static ArrayList<Integer> alreadyAsked = new ArrayList<>();
+    public static ArrayList<Integer> askOrder = new ArrayList<>();
+    private static int currentQuestion = 0;
 
     public static void initialize() {
+
+        for(int i = 0; i < 10; i++)
+        {
+            askOrder.add(i);
+        }
+
+        Collections.shuffle(askOrder);
+
         easyQuestions.add(new Question("Peter Pan", "Nimm mich mit nach Nimmerland."));
         easyQuestions.add(new Question("Schneewittchen", "Spieglein, Spieglein an der Wand, wer ist die Sch?nste im ganzen Land?"));
         easyQuestions.add(new Question("Findet Nemo", "Einfach Schwimmen, einfach schwimmen."));
@@ -40,7 +50,7 @@ public class QuestionDatabase
         easyQuestions.add(new Question("Rapunzel Neu Verf?hnt", "Blume leuchtend sch?n, kann so m?chtig sein. Dreh die Zeit zur?ck, gib mir was einst was mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
         easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter B?r!"));
-
+        easyQuestions.add(new Question("Alice im Wunderland", "Ich wurde geschrumpft, gestreckt, gekratzt und in eine Teekanne gesteckt."));
 
         middleQuestions.add(new Question("Winnieh Puuh", "Menschen sagen, nichts ist unm?glich, aber ich mache jeden Tag nichts."));
         middleQuestions.add(new Question("Die Eisk?nigin", "Ich liebe Umarmungen!"));
@@ -69,20 +79,16 @@ public class QuestionDatabase
     public static QuestionPack generateQuestionPack()
     {
         final int min = 0;
-        final int max = 8;
+        final int max = 9;
 
 
 
         int randomNumberOne = random.nextInt(max - min + 1) + min;
         int randomNumberTwo = random.nextInt(max - min + 1) + min;
-        int randomNumberThree = random.nextInt(max - min + 1) + min;
 
-        while (alreadyAsked.contains(randomNumberThree))
-        {
-            randomNumberThree = random.nextInt(max - min + 1) + min;
-        }
+        int currentQuestionSelect = askOrder.get(currentQuestion);
 
-        while(randomNumberOne == randomNumberTwo || randomNumberOne == randomNumberThree || randomNumberTwo == randomNumberThree )
+        while(randomNumberOne == randomNumberTwo || randomNumberOne == currentQuestionSelect || randomNumberTwo == currentQuestionSelect)
         {
             randomNumberOne = random.nextInt(max - min + 1) + min;
             randomNumberTwo = random.nextInt(max - min + 1) + min;
@@ -90,9 +96,9 @@ public class QuestionDatabase
 
         String randomMovieOne = easyQuestions.get(randomNumberOne).getMovie();
         String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie();
-        Question randomQuestion = easyQuestions.get(randomNumberThree);
+        Question randomQuestion = easyQuestions.get(currentQuestionSelect);
 
-        alreadyAsked.add(randomNumberThree);
+        currentQuestion++;
 
         QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
         return qp;
