@@ -34,11 +34,11 @@ public class TestUninitializedDatabase {
 
     @Test
     public void initializeDatabaseTest() {
-        ArrayList<String> testerEasy = QuestionDatabase.easyQuestions; // MyClass is tested
-        ArrayList<String> testerMiddle = QuestionDatabase.middleQuestions; // MyClass is tested
-        ArrayList<String> testerHard = QuestionDatabase.hardQuestions; // MyClass is tested
+        ArrayList<Question> testerEasy = QuestionDatabase.easyQuestions; // MyClass is tested
+        ArrayList<Question> testerMiddle = QuestionDatabase.middleQuestions; // MyClass is tested
+        ArrayList<Question> testerHard = QuestionDatabase.hardQuestions; // MyClass is tested
 
-        ArrayList<String> actual = new ArrayList<>();
+        ArrayList<Question> actual = new ArrayList<>();
 
         // assert statements
         assertEquals(testerEasy, actual, "testerEasy not empty");
