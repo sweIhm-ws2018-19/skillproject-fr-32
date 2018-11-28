@@ -73,9 +73,13 @@ public class TestInitializedDatabase {
         hardQuestions.add(new Question("Arielle", "Du musst mit den Wimpern klimpern, so wie ich. Du musst die Lippen spitzen, so wie ich."));
 
         // assert statements
-        assertArrayEquals(testerEasy, easyQuestions);
-        assertArrayEquals(testerMiddle, middleQuestions);
-        assertArrayEquals(testerHard, hardQuestions);
+        for(int i = 0; i < 10; i++)
+        {
+            assertEquals(testerEasy.get(i), easyQuestions.get(i));
+            assertEquals(testerMiddle.get(i), middleQuestions.get(i));
+            assertEquals(testerHard.get(i), hardQuestions.get(i));
+        }
+        
 
     }
 
