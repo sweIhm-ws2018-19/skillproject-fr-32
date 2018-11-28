@@ -74,8 +74,10 @@ public class TestInitializedDatabase {
         // assert statements
         for(int i = 0; i < 10; i++)
         {
-            assertEquals(testerEasy.get(i).getMovie(), easyQuestions.get(i).getMovie());
-            assertEquals(testerEasy.get(i).getQuote(), easyQuestions.get(i).getQuote());
+            if(i < 9) {
+                assertEquals(testerEasy.get(i).getMovie(), easyQuestions.get(i).getMovie());
+                assertEquals(testerEasy.get(i).getQuote(), easyQuestions.get(i).getQuote());
+            }
 
             assertEquals(testerMiddle.get(i).getMovie(), middleQuestions.get(i).getMovie());
             assertEquals(testerMiddle.get(i).getQuote(), middleQuestions.get(i).getQuote());
