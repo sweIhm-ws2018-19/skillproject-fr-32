@@ -42,9 +42,9 @@ public class TestUninitializedDatabase {
         ArrayList<Question> actual = new ArrayList<>();
 
         // assert statements
-        assertEquals(testerEasy, actual, "testerEasy not empty");
-        assertEquals(testerMiddle, actual, "testerMiddle not empty");
-        assertEquals(testerHard, actual, "testerHard not empty");
+        assertEquals(testerEasy, actual);
+        assertEquals(testerMiddle, actual);
+        assertEquals(testerHard, actual);
     }
 
 }
