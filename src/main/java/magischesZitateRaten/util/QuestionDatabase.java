@@ -27,6 +27,8 @@ public class QuestionDatabase
     public static ArrayList<Question> easyQuestions = new ArrayList<>();
     public static ArrayList<Question> middleQuestions = new ArrayList<>();
     public static ArrayList<Question> hardQuestions = new ArrayList<>();
+    private Random random = new Random();
+    ArrayList<Integer> alreadyAsked = new ArrayList<>();
 
     public static void initialize() {
         easyQuestions.add(new Question("Peter Pan", "Nimm mich mit nach Nimmerland."));
@@ -37,7 +39,6 @@ public class QuestionDatabase
         easyQuestions.add(new Question("Das Dschungelbuch", "Probiers mal mit Gem?tlichkeit!"));
         easyQuestions.add(new Question("Rapunzel Neu Verf?hnt", "Blume leuchtend sch?n, kann so m?chtig sein. Dreh die Zeit zur?ck, gib mir was einst was mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
-        easyQuestions.add(new Question("Findet Nemo", "Fische sind Freunde, kein Futter."));
         easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter B?r!"));
 
 
@@ -68,23 +69,30 @@ public class QuestionDatabase
     public static QuestionPack generateQuestionPack()
     {
         final int min = 0;
-        final int max = 9;
+        final int max = 8;
 
-        Random random = new Random();
+
 
         int randomNumberOne = random.nextInt(max - min + 1) + min;
         int randomNumberTwo = random.nextInt(max - min + 1) + min;
         int randomNumberThree = random.nextInt(max - min + 1) + min;
 
-        while(randomNumberOne == randomNumberTwo || randomNumberOne == randomNumberThree || randomNumberTwo == randomNumberThree)
+        while (alreadyAsked.contains(randomNumberThree))
         {
-            randomNumberTwo = random.nextInt(max - min + 1) + min;
             randomNumberThree = random.nextInt(max - min + 1) + min;
+        }
+
+        while(randomNumberOne == randomNumberTwo || randomNumberOne == randomNumberThree || randomNumberTwo == randomNumberThree )
+        {
+            randomNumberOne = random.nextInt(max - min + 1) + min;
+            randomNumberTwo = random.nextInt(max - min + 1) + min;
         }
 
         String randomMovieOne = easyQuestions.get(randomNumberOne).getMovie();
         String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie();
         Question randomQuestion = easyQuestions.get(randomNumberThree);
+
+        alreadyAsked.add(randomNumberThree);
 
         QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
         return qp;

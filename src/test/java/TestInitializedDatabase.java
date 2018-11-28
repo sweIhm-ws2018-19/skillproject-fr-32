@@ -45,7 +45,6 @@ public class TestInitializedDatabase {
         easyQuestions.add(new Question("Das Dschungelbuch", "Probiers mal mit Gem?tlichkeit!"));
         easyQuestions.add(new Question("Rapunzel Neu Verf?hnt", "Blume leuchtend sch?n, kann so m?chtig sein. Dreh die Zeit zur?ck, gib mir was einst was mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
-        easyQuestions.add(new Question("Findet Nemo", "Fische sind Freunde, kein Futter."));
         easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter B?r!"));
 
         ArrayList<Question> middleQuestions = new ArrayList<>();
