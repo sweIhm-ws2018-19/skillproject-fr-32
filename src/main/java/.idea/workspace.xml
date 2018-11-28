@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed3b19a3-c4f3-46b7-a7db-71c8b4b9207f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/magischesZitateRaten/handlers/GamePlayIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/magischesZitateRaten/handlers/GamePlayIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magischesZitateRaten/model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/magischesZitateRaten/model/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magischesZitateRaten/util/QuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/magischesZitateRaten/util/QuestionDatabase.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed3b19a3-c4f3-46b7-a7db-71c8b4b9207f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +69,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="y" value="231" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="631" />
+    <option name="y" value="131" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -133,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543413780707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543416809210" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -160,12 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543413654666</updated>
-      <workItem from="1543413656045" duration="125000" />
+      <workItem from="1543413656045" duration="326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125000" />
+    <option name="totallyTimeSpent" value="326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
