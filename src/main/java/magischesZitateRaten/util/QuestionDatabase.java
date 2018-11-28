@@ -27,7 +27,7 @@ public class QuestionDatabase
     public static ArrayList<Question> easyQuestions = new ArrayList<>();
     public static ArrayList<Question> middleQuestions = new ArrayList<>();
     public static ArrayList<Question> hardQuestions = new ArrayList<>();
-    private Random random = new Random();
+    private static Random random = new Random();
     public static ArrayList<Integer> alreadyAsked = new ArrayList<>();
 
     public static void initialize() {
