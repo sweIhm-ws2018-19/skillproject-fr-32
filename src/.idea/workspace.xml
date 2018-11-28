@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+            <state relative-caret-position="464">
+              <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="88" selection-end-line="83" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543423912331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543424121852" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543417541529</updated>
       <workItem from="1543417542845" duration="1710000" />
-      <workItem from="1543422259520" duration="1652000" />
+      <workItem from="1543422259520" duration="1861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3362000" />
+    <option name="totallyTimeSpent" value="3571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -377,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        <state relative-caret-position="464">
+          <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="88" selection-end-line="83" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
