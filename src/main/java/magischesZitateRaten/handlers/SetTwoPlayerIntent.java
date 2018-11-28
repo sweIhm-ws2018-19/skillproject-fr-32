@@ -38,6 +38,8 @@ public class SetTwoPlayerIntent implements RequestHandler {
         sessionAttributes.put(Attributes.QUIZ_SCORE_FIRST, 1);
         sessionAttributes.put(Attributes.QUIZ_SCORE_SECOND, 0);
 
+        QuestionDatabase.initialize();
+
         String responseText = "Alles klar. Sie sind 2 spieler. Bitte sagen sie aufgehts um mit dem Spiel zu beginnen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)

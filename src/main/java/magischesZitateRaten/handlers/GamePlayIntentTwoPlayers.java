@@ -30,7 +30,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        QuestionDatabase.initialize();
+
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
 

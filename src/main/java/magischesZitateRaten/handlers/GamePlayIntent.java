@@ -30,7 +30,7 @@ public class GamePlayIntent implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        QuestionDatabase.initialize();
+
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY);

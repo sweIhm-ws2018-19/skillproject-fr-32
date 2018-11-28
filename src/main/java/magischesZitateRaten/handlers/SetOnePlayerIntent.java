@@ -33,6 +33,8 @@ public class SetOnePlayerIntent implements RequestHandler {
         sessionAttributes.put(Attributes.COUNTER_KEY, 1);
         sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, 0);
 
+        QuestionDatabase.initialize();
+
         String responseText = "Alles klar. Sie sind ein Spieler. Sag los um mit dem Spiel zu beginnen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
