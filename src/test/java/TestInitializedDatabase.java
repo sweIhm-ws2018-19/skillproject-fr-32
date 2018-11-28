@@ -22,7 +22,6 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 
-import static com.amazon.ask.quiz.util.QuestionUtils.getPropertyOfState;
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
