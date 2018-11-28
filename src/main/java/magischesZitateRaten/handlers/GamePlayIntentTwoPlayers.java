@@ -6,14 +6,10 @@ import com.amazon.ask.model.IntentRequest;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.model.Slot;
 import com.amazon.ask.quiz.model.Attributes;
-import com.amazon.ask.quiz.model.Constants;
-import com.amazon.ask.quiz.model.StateProperty;
-import com.amazon.ask.quiz.model.State;
-import com.amazon.ask.quiz.util.QuestionUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.amazon.ask.quiz.util.QuestionUtils;
 import com.amazon.ask.quiz.util.QuestionPack;
 import com.amazon.ask.quiz.util.QuestionDatabase;
+import com.amazon.ask.quiz.model.Constants;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -21,14 +17,10 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
 
-import static com.amazon.ask.quiz.util.QuestionUtils.getPropertyOfState;
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
 public class GamePlayIntentTwoPlayers implements RequestHandler {
-
-    private static final Random RANDOM = new Random();
-    private static final ObjectMapper MAPPER = new ObjectMapper();
 
     @Override
     public boolean canHandle(HandlerInput input) {
@@ -95,7 +87,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
         String fakeOne = qp.getFakeMovieOne();
         String fakeTwo = qp.getFakeMovieTwo();
 
-        responseText += "Das " + totalcounter + "te Zitat lautet gefolgt. " + Quote + " M?glichkeit 1 " + fakeOne + ". M?glichkeit 2 " + Movie + ". M?glichkeit 3 " + fakeTwo + ".";
+        responseText += "Das " + totalcounter + "te Zitat lautet gefolgt. " + Quote + " M�glichkeit 1 " + fakeOne + ". M�glichkeit 2 " + Movie + ". M�glichkeit 3 " + fakeTwo + ".";
         responseText += " Dies ist eine Beta. Antworte mit Weiter um fortzufahren.";
 
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);

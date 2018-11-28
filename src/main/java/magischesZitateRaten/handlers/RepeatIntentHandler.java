@@ -4,13 +4,11 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.quiz.model.Attributes;
-import com.amazon.ask.quiz.model.StateProperty;
-import com.amazon.ask.quiz.model.State;
+import com.amazon.ask.quiz.model.Constants;
 
 import java.util.Map;
 import java.util.Optional;
 
-import static com.amazon.ask.quiz.util.QuestionUtils.getQuestionText;
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
@@ -23,15 +21,11 @@ public class RepeatIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
-        int counter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
-        StateProperty stateProperty = (StateProperty) sessionAttributes.get(Attributes.QUIZ_PROPERTY_KEY);
-        State state = (State) sessionAttributes.get(Attributes.QUIZ_ITEM_KEY);
 
-        String question = getQuestionText(counter, stateProperty, state);
+        String question = "";
+
         return input.getResponseBuilder()
                 .withSpeech(question)
-                .withReprompt(question)
                 .withShouldEndSession(false)
                 .build();
     }
