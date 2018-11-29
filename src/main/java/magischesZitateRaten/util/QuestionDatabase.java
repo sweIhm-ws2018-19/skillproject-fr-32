@@ -34,9 +34,10 @@ public class QuestionDatabase
 
     public static void initialize() {
 
-        easyQuestions = new ArrayList<>();
-        middleQuestions = new ArrayList<>();
-        hardQuestions = new ArrayList<>();
+        easyQuestions.clear();
+        middleQuestions.clear();
+        hardQuestions.clear();
+
         random = new Random();
         askOrder = new ArrayList<>();
         currentQuestion = 0;
