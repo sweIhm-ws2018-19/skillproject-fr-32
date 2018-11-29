@@ -68,6 +68,17 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
         {
             String rightmovie = (String) sessionAttributes.get(Attributes.RIGHT_MOVIE);
             responseText += rightmovie + " ist richtig! " + reversePlayerString + "  hat " + (score_one) + " von " + (score_one) + " Fragen richtig beantwortet. ";
+
+            if((totalcounter) > 10) {
+
+                responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+
+                return input.getResponseBuilder()
+                        .withSpeech(responseText)
+                        .withShouldEndSession(true)
+                        .build();
+            }
+
         }
 
         if(playerNumber == 1)
@@ -97,19 +108,11 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         sessionAttributes.put(Attributes.COUNTER_KEY, totalcounter);
 
-        if((totalcounter - 1) < 10) {
-            return input.getResponseBuilder()
-                    .withSpeech(responseText)
-                    .withShouldEndSession(false)
-                    .build();
-        } else
-        {
-            responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
-            return input.getResponseBuilder()
-                    .withSpeech(responseText)
-                    .withShouldEndSession(true)
-                    .build();
-        }
+        return input.getResponseBuilder()
+                .withSpeech(responseText)
+                .withShouldEndSession(false)
+                .build();
+
 
     }
 

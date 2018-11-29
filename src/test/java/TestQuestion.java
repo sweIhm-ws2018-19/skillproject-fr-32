@@ -26,7 +26,7 @@ import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
 
-public class TestQu {
+public class TestQuestion {
 
     @Test
     public void TestQuestion() {

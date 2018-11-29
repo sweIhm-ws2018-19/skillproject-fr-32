@@ -30,8 +30,6 @@ public class GamePlayIntent implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        QuestionDatabase.initialize();
-
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY);
         int counter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
@@ -43,8 +41,10 @@ public class GamePlayIntent implements RequestHandler {
             String rightmovie = (String) sessionAttributes.get(Attributes.RIGHT_MOVIE);
             responseText += rightmovie + " ist richtig! Sie haben " + (counter - 1) + " von " + (counter - 1) + " Fragen richtig beantwortet. ";
 
-            if((counter - 1) < 10) {
-                responseText += " 10 Fragen wurden gestellt UWU. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+            if((counter) > 10) {
+
+                responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+
                 return input.getResponseBuilder()
                         .withSpeech(responseText)
                         .withShouldEndSession(true)
@@ -67,19 +67,12 @@ public class GamePlayIntent implements RequestHandler {
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
         sessionAttributes.put(Attributes.RIGHT_MOVIE, Movie);
 
-        if((counter - 1) < 20) {
+
             return input.getResponseBuilder()
                     .withSpeech(responseText)
                     .withShouldEndSession(false)
                     .build();
-        } else
-        {
-            responseText += " 10 Fragen wurden gestellt OWO. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
-            return input.getResponseBuilder()
-                    .withSpeech(responseText)
-                    .withShouldEndSession(true)
-                    .build();
-        }
+
     }
 
 

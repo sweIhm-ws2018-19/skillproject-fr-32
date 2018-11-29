@@ -1,0 +1,3 @@
+com\amazon\ask\test\java\TestInitializedDatabase.class
+com\amazon\ask\test\java\TestQuestion.class
+com\amazon\ask\test\java\TestUninitializedDatabase.class
