@@ -32,9 +32,9 @@ public class TestUninitializedDatabase {
     public void uninitializedDatabaseTest() {
 
 
-        ArrayList<Question> testerEasy = QuestionDatabase.easyQuestions; // MyClass is tested
-        ArrayList<Question> testerMiddle = QuestionDatabase.middleQuestions; // MyClass is tested
-        ArrayList<Question> testerHard = QuestionDatabase.hardQuestions; // MyClass is tested
+        ArrayList<Question> testerEasy = QuestionDatabase.getEasyQuestions(); // MyClass is tested
+        ArrayList<Question> testerMiddle = QuestionDatabase.getMiddleQuestions(); // MyClass is tested
+        ArrayList<Question> testerHard = QuestionDatabase.getHardQuestions(); // MyClass is tested
 
         ArrayList<Question> compare = new ArrayList<>();
 
