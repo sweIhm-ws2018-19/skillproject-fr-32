@@ -29,7 +29,7 @@ public class QuestionDatabase
     public static final ArrayList<Question> middleQuestions = new ArrayList<>();
     public static final ArrayList<Question> hardQuestions = new ArrayList<>();
     private static Random random;
-    protected final static ArrayList<Integer> askOrder;
+    protected final static ArrayList<Integer> askOrder = new ArrayList<>();
     private static int currentQuestion;
 
     public static void initialize() {
