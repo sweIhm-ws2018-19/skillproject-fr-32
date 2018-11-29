@@ -1,24 +1,8 @@
 package com.amazon.ask.quiz.util;
 
-import com.amazon.ask.dispatcher.request.handler.HandlerInput;
-import com.amazon.ask.dispatcher.request.handler.RequestHandler;
-import com.amazon.ask.model.IntentRequest;
-import com.amazon.ask.model.Response;
-import com.amazon.ask.model.Slot;
-import com.amazon.ask.quiz.model.Attributes;
-import com.amazon.ask.quiz.util.Question;
-import com.amazon.ask.quiz.util.QuestionPack;
 import java.util.ArrayList;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Random;
-import com.amazon.ask.quiz.model.Constants;
 import java.util.Collections;
-
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Random;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
@@ -29,8 +13,10 @@ public class QuestionDatabase
     protected static final ArrayList<Question> middleQuestions = new ArrayList<>();
     protected static final ArrayList<Question> hardQuestions = new ArrayList<>();
     private static Random random;
-    protected final static ArrayList<Integer> askOrder = new ArrayList<>();
+    protected static final ArrayList<Integer> askOrder = new ArrayList<>();
     private static int currentQuestion;
+
+    private QuestionDatabase() { }
 
     public static void initialize() {
 
@@ -49,11 +35,14 @@ public class QuestionDatabase
 
         Collections.shuffle(askOrder);
 
+        String nemo = "Findet Nemo";
+        String kdl = "König der Löwen";
+
         easyQuestions.add(new Question("Peter Pan", "Nimm mich mit nach Nimmerland."));
         easyQuestions.add(new Question("Schneewittchen", "Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?"));
-        easyQuestions.add(new Question("Findet Nemo", "Einfach Schwimmen, einfach schwimmen."));
+        easyQuestions.add(new Question(nemo, "Einfach Schwimmen, einfach schwimmen."));
         easyQuestions.add(new Question("Die Eiskönigin", "Manche Menschen sind es wert, dass man für sie schmilzt."));
-        easyQuestions.add(new Question("König der Löwen", "Hakuna Matata. Das heißt keine Sorgen!"));
+        easyQuestions.add(new Question(kdl, "Hakuna Matata. Das heißt keine Sorgen!"));
         easyQuestions.add(new Question("Das Dschungelbuch", "Probiers mal mit Gemütlichkeit!"));
         easyQuestions.add(new Question("Rapunzel Neu Verföhnt", "Blume leuchtend schön, kann so mächtig sein. Dreh die Zeit zurück, gib mir was einst was mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
@@ -65,11 +54,11 @@ public class QuestionDatabase
         middleQuestions.add(new Question("Die Eiskönigin", "Ich liebe Umarmungen!"));
         middleQuestions.add(new Question("Pocahontas", "Lausche mit dem Herz und du wirst verstehen."));
         middleQuestions.add(new Question("Lilo und Sitch", "Ohana heißt Familie. Familie heißt, dass alle zusammenhalten und füreinander da sind."));
-        middleQuestions.add(new Question("König der Löwen", "Schleimig, jedoch vitaminreich!"));
+        middleQuestions.add(new Question(kdl, "Schleimig, jedoch vitaminreich!"));
         middleQuestions.add(new Question("Die Schöne und das Biest", "Sie warnte ihn sich nicht täuschen zu lassen, da man die Schönheit im Verborgenen findet."));
         middleQuestions.add(new Question("101 Dalmatiner", "Trottel werden nicht geboren, Pongo. Hübsche Frauen stellen sie in ihrer Freizeit her."));
         middleQuestions.add(new Question("Rapunzel Neu Verföhnt", "Dann ist es Zeit für einen neuen Traum."));
-        middleQuestions.add(new Question("Findet Nemo", "Fische sind Freunde, kein Futter."));
+        middleQuestions.add(new Question(nemo, "Fische sind Freunde, kein Futter."));
         middleQuestions.add(new Question("Schneewittchen", "Wer hat in meinem Bettchen geschlafen?"));
 
         hardQuestions.add(new Question("Hercules", "Ein wahrer Held wird nicht durch die Größe seiner Kraft bestimmt, sondern durch die Größe seines Herzens!"));
@@ -105,21 +94,15 @@ public class QuestionDatabase
         }
 
         String randomMovieOne = easyQuestions.get(randomNumberOne).getMovie();
-        String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie() + " momentaner stack: " + bla() + " momentaner index: " + currentQuestion + " momentane selectFrage: " + currentQuestionSelect;
+        String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie();
         Question randomQuestion = easyQuestions.get(currentQuestionSelect);
 
         currentQuestion++;
 
-        QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
-        return qp;
+        return new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
     }
 
 
-    private static String bla()
-    {
-        String ret = "";
-        for(int item : askOrder){ ret += item + " - ";}
-        return ret;
-    }
+
 
 }
