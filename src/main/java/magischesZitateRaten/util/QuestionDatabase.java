@@ -25,9 +25,9 @@ import static com.amazon.ask.request.Predicates.sessionAttribute;
 
 public class QuestionDatabase
 {
-    public static ArrayList<Question> easyQuestions;
-    public static ArrayList<Question> middleQuestions;
-    public static ArrayList<Question> hardQuestions;
+    public static ArrayList<Question> easyQuestions = new ArrayList<>();
+    public static ArrayList<Question> middleQuestions = new ArrayList<>();
+    public static ArrayList<Question> hardQuestions = new ArrayList<>();
     private static Random random;
     public static ArrayList<Integer> askOrder;
     private static int currentQuestion;

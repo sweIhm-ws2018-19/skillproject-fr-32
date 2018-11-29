@@ -29,21 +29,19 @@ import static com.amazon.ask.request.Predicates.sessionAttribute;
 public class TestUninitializedDatabase {
 
     @Test
-    public void initializeDatabaseTest() {
+    public void uninitializedDatabaseTest() {
 
 
         ArrayList<Question> testerEasy = QuestionDatabase.easyQuestions; // MyClass is tested
         ArrayList<Question> testerMiddle = QuestionDatabase.middleQuestions; // MyClass is tested
         ArrayList<Question> testerHard = QuestionDatabase.hardQuestions; // MyClass is tested
 
-        ArrayList<Question> actual = new ArrayList<>();
-
-
+        ArrayList<Question> compare =  = new ArrayList<>();
 
         // assert statements
-        assertEquals(testerEasy, actual);
-        assertEquals(testerMiddle, actual);
-        assertEquals(testerHard, actual);
+        assertEquals(testerEasy, compare);
+        assertEquals(testerMiddle, compare);
+        assertEquals(testerHard, compare);
     }
 
 }
