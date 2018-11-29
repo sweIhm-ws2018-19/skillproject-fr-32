@@ -58,7 +58,7 @@ public class GamePlayIntent implements RequestHandler {
         counter++;
 
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
-        sessionAttributes.put(Attributes.RIGHT_MOVIE, Movie);
+        sessionAttributes.put(Attributes.RIGHT_MOVIE, movie);
 
 
             return input.getResponseBuilder()

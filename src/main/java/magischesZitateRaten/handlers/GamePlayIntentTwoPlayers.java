@@ -95,7 +95,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
         responseText += " Dies ist eine Beta. Antworte mit Weiter um fortzufahren.";
 
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
-        sessionAttributes.put(Attributes.RIGHT_MOVIE, Movie);
+        sessionAttributes.put(Attributes.RIGHT_MOVIE, movie);
 
         totalcounter++;
 
