@@ -25,14 +25,21 @@ import static com.amazon.ask.request.Predicates.sessionAttribute;
 
 public class QuestionDatabase
 {
-    public static ArrayList<Question> easyQuestions = new ArrayList<>();
-    public static ArrayList<Question> middleQuestions = new ArrayList<>();
-    public static ArrayList<Question> hardQuestions = new ArrayList<>();
-    private static Random random = new Random();
-    public static ArrayList<Integer> askOrder = new ArrayList<>();
-    private static int currentQuestion = 0;
+    public static ArrayList<Question> easyQuestions;
+    public static ArrayList<Question> middleQuestions;
+    public static ArrayList<Question> hardQuestions;
+    private static Random random;
+    public static ArrayList<Integer> askOrder;
+    private static int currentQuestion;
 
     public static void initialize() {
+
+        easyQuestions = new ArrayList<>();
+        middleQuestions = new ArrayList<>();
+        hardQuestions = new ArrayList<>();
+        random = new Random();
+        askOrder = new ArrayList<>();
+        currentQuestion = 0;
 
         for(int i = 0; i < 10; i++)
         {
@@ -76,6 +83,7 @@ public class QuestionDatabase
         hardQuestions.add(new Question("Arielle", "Du musst mit den Wimpern klimpern, so wie ich. Du musst die Lippen spitzen, so wie ich."));
 
     }
+
 
     public static QuestionPack generateQuestionPack()
     {
