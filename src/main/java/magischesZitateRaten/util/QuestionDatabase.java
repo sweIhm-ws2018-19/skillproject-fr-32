@@ -3,17 +3,18 @@ package com.amazon.ask.quiz.util;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Collections;
+import java.util.List;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
 public class QuestionDatabase
 {
-    public static final ArrayList<Question> easyQuestions = new ArrayList<>();
-    public static final ArrayList<Question> middleQuestions = new ArrayList<>();
-    public static final ArrayList<Question> hardQuestions = new ArrayList<>();
+    private static final ArrayList<Question> easyQuestions = new ArrayList<>();
+    private static final ArrayList<Question> middleQuestions = new ArrayList<>();
+    private static final ArrayList<Question> hardQuestions = new ArrayList<>();
     private static Random random;
-    public static final ArrayList<Integer> askOrder = new ArrayList<>();
+    private static final ArrayList<Integer> askOrder = new ArrayList<>();
     private static int currentQuestion;
 
     private QuestionDatabase() { }
@@ -103,6 +104,21 @@ public class QuestionDatabase
     }
 
 
+    public static List<Integer> getAskOrder() {
+        return askOrder;
+    }
+
+    public static List<Question> getEasyQuestions() {
+        return easyQuestions;
+    }
+
+    public static List<Question> getHardQuestions() {
+        return hardQuestions;
+    }
+
+    public static List<Question> getMiddleQuestions() {
+        return middleQuestions;
+    }
 
 
 }
