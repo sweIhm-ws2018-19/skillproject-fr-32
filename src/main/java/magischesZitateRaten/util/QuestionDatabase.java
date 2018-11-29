@@ -64,11 +64,11 @@ public class QuestionDatabase
 
         hardQuestions.add(new Question("Hercules", "Ein wahrer Held wird nicht durch die Größe seiner Kraft bestimmt, sondern durch die Größe seines Herzens!"));
         hardQuestions.add(new Question("Bambi", "Wenn man nichts Nettes zu sagen hat, soll man den Mund halten."));
-        hardQuestions.add(new Question("Findet Nemo", "P Sherman 42 Wallaby Way Sydney."));
+        hardQuestions.add(new Question(nemo, "P Sherman 42 Wallaby Way Sydney."));
         hardQuestions.add(new Question("Pocahontas", "Der richtige Weg ist nun mal nicht immer der einfachste Weg."));
         hardQuestions.add(new Question("Cinderella", "Wo Freundlichkeit herrscht, gibt es Güte und wo es Güte gibt, da ist auch Magie."));
         hardQuestions.add(new Question("Mulan", "So sehr der Sturm auch tobt, den Berg wird er nie in die Knie zwingen."));
-        hardQuestions.add(new Question("König der Löwen", "Vergiss niemals, wer du bist."));
+        hardQuestions.add(new Question(kdl, "Vergiss niemals, wer du bist."));
         hardQuestions.add(new Question("Aladdin", "Ich und Schwierigkeiten? Schwierigkeiten kriegst du, wenn sie dich erwischen!"));
         hardQuestions.add(new Question("Maleficent", "Die anderen Feen fliegen, warum du nicht?"));
         hardQuestions.add(new Question("Arielle", "Du musst mit den Wimpern klimpern, so wie ich. Du musst die Lippen spitzen, so wie ich."));
