@@ -36,7 +36,7 @@ public class TestUninitializedDatabase {
         ArrayList<Question> testerMiddle = QuestionDatabase.middleQuestions; // MyClass is tested
         ArrayList<Question> testerHard = QuestionDatabase.hardQuestions; // MyClass is tested
 
-        ArrayList<Question> compare =  = new ArrayList<>();
+        ArrayList<Question> compare = new ArrayList<>();
 
         // assert statements
         assertEquals(testerEasy, compare);
