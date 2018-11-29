@@ -96,12 +96,12 @@ public class QuestionDatabase
         }
 
         String randomMovieOne = easyQuestions.get(randomNumberOne).getMovie();
-        String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie();
+        String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie() + " momentaner stack: " + bla() + " momentaner index: " + currentQuestion + " momentane selectFrage: " + currentQuestionSelect;
         Question randomQuestion = easyQuestions.get(currentQuestionSelect);
 
         currentQuestion++;
 
-        QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo + " momentaner stack: " + bla() + " momentaner index: " + currentQuestion + " momentane selectFrage: " + currentQuestionSelect);
+        QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
         return qp;
     }
 
