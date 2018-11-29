@@ -101,11 +101,16 @@ public class QuestionDatabase
 
         currentQuestion++;
 
-        QuestionPack qp = new QuestionPack(randomQuestion, randomMovieOne, randomMovieTwo);
+        QuestionPack qp = new QuestionPack(randomQuestion + " momentaner stack: " + ret + " momentaner index: " + currentQuestion + " momentane selectFrage: " + currentQuestionSelect, randomMovieOne, randomMovieTwo);
         return qp;
     }
 
 
-
+    private static String bla()
+    {
+        String ret = "";
+        for(int item : askOrder) ret += item + " - ";
+        return ret;
+    }
 
 }
