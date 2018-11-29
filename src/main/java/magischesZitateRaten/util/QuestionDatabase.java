@@ -104,19 +104,19 @@ public class QuestionDatabase
     }
 
 
-    public static List<Integer> getAskOrder() {
+    public static ArrayList<Integer> getAskOrder() {
         return askOrder;
     }
 
-    public static List<Question> getEasyQuestions() {
+    public static ArrayList<Question> getEasyQuestions() {
         return easyQuestions;
     }
 
-    public static List<Question> getHardQuestions() {
+    public static ArrayList<Question> getHardQuestions() {
         return hardQuestions;
     }
 
-    public static List<Question> getMiddleQuestions() {
+    public static ArrayList<Question> getMiddleQuestions() {
         return middleQuestions;
     }
 
