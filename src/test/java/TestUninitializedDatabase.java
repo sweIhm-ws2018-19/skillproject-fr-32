@@ -16,6 +16,7 @@ public class TestUninitializedDatabase {
     @Test
     public void uninitializedDatabaseTest() {
 
+        QuestionDatabase.clear();
 
         ArrayList<Question> testerEasy = QuestionDatabase.getEasyQuestions(); // MyClass is tested
         ArrayList<Question> testerMiddle = QuestionDatabase.getMiddleQuestions(); // MyClass is tested

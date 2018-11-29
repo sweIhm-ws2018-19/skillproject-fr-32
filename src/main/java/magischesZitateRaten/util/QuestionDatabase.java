@@ -18,8 +18,8 @@ public class QuestionDatabase
 
     private QuestionDatabase() { }
 
-    public static void initialize() {
-
+    public static void clear()
+    {
         easyQuestions.clear();
         middleQuestions.clear();
         hardQuestions.clear();
@@ -27,6 +27,12 @@ public class QuestionDatabase
         random = new Random();
         askOrder.clear();
         currentQuestion = 0;
+
+    }
+
+    public static void initialize() {
+
+        clear();
 
         for(int i = 0; i < 10; i++)
         {

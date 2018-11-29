@@ -6,8 +6,6 @@ public class Constants {
 
     private Constants(){}
 
-    public static final boolean USE_CARDS_FLAG = true;
-
     public static final  String WELCOME_MESSAGE = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum," +
             " alleine oder gegen einen zweiten Spieler Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores. Spielst du alleine oder zu zweit?";
 

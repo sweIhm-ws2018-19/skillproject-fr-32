@@ -4,7 +4,6 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.model.SessionEndedRequest;
-import org.slf4j.Logger;
 
 import java.util.Optional;
 
@@ -13,7 +12,6 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 public class SessionEndedHandler implements RequestHandler {
 
-    private static Logger log = getLogger(SessionEndedHandler.class);
 
     @Override
     public boolean canHandle(HandlerInput input) {
@@ -22,8 +20,6 @@ public class SessionEndedHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        SessionEndedRequest sessionEndedRequest = (SessionEndedRequest) input.getRequestEnvelope().getRequest();
-        log.debug("Session ended with reason: " + sessionEndedRequest.getReason().toString());
         return Optional.empty();
     }
 
