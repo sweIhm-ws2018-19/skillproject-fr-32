@@ -13,7 +13,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 public class SessionEndedHandler implements RequestHandler {
 
-    private static Logger LOG = getLogger(SessionEndedHandler.class);
+    private static Logger log = getLogger(SessionEndedHandler.class);
 
     @Override
     public boolean canHandle(HandlerInput input) {
@@ -23,7 +23,7 @@ public class SessionEndedHandler implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
         SessionEndedRequest sessionEndedRequest = (SessionEndedRequest) input.getRequestEnvelope().getRequest();
-        LOG.debug("Session ended with reason: " + sessionEndedRequest.getReason().toString());
+        log.debug("Session ended with reason: " + sessionEndedRequest.getReason().toString());
         return Optional.empty();
     }
 

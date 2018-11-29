@@ -24,7 +24,7 @@ public class GamePlayIntent implements RequestHandler {
     public Optional<Response> handle(HandlerInput input) {
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
-        int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY);
+        /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
         int counter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
 
         String responseText = "";
@@ -47,12 +47,12 @@ public class GamePlayIntent implements RequestHandler {
 
         QuestionPack qp = QuestionDatabase.generateQuestionPack();
 
-        String Quote = qp.getQuote();
-        String Movie = qp.getMovie();
+        String quote = qp.getQuote();
+        String movie = qp.getMovie();
         String fakeOne = qp.getFakeMovieOne();
         String fakeTwo = qp.getFakeMovieTwo();
 
-        responseText += "Das " + counter + "te Zitat lautet gefolgt. " + Quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + Movie + ". Möglichkeit 3 " + fakeTwo + ".";
+        responseText += "Das " + counter + "te Zitat lautet gefolgt. " + quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + movie + ". Möglichkeit 3 " + fakeTwo + ".";
         responseText += " Dies ist eine Beta. Antworte mit Test um fortzufahren.";
 
         counter++;

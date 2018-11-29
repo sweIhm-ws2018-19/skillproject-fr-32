@@ -2,6 +2,9 @@ package com.amazon.ask.quiz.model;
 
 public final class Attributes {
 
+    private Attributes()
+    {}
+
     public static final String STATE_KEY = "state";
     public static final String QUIZ_ITEM_KEY = "quizitem";
     public static final String QUIZ_SCORE_KEY = "quizscore";

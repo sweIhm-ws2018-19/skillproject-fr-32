@@ -13,7 +13,7 @@ import static com.amazon.ask.request.Predicates.sessionAttribute;
 public class TestQuestion {
 
     @Test
-    public void TestQuestion() {
+    public void doTestQuestion() {
 
 
         // assert statements

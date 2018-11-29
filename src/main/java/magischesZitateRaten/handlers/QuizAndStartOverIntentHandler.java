@@ -15,7 +15,7 @@ public class QuizAndStartOverIntentHandler implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return //input.matches(intentName("QuizIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.SAY_GO_STATE)));
+        return //input.matches(intentName("QuizIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.SAY_GO_STATE)))
                  input.matches(intentName("AMAZON.StartOverIntent"));
     }
 
@@ -27,9 +27,9 @@ public class QuizAndStartOverIntentHandler implements RequestHandler {
         if(playerNumber == 1) sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_ONE_PLAYER);
         if(playerNumber == 2) sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_TWO_PLAYER);
 
-     //   sessionAttributes.put(Attributes.RESPONSE_KEY, "");
-     //   sessionAttributes.put(Attributes.COUNTER_KEY, 0);
-     //   sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, 0);
+     //   sessionAttributes.put(Attributes.RESPONSE_KEY, "")
+     //   sessionAttributes.put(Attributes.COUNTER_KEY, 0)
+     //   sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, 0)
 
         String responseText = "Wie bist du hierher gekommen. Error";
         return input.getResponseBuilder()

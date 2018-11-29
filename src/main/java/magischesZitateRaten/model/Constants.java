@@ -4,6 +4,8 @@ package com.amazon.ask.quiz.model;
 
 public class Constants {
 
+    private Constants(){}
+
     public static final boolean USE_CARDS_FLAG = true;
 
     public static final  String WELCOME_MESSAGE = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum," +

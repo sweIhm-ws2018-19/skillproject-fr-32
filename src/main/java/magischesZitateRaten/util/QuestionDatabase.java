@@ -3,7 +3,6 @@ package com.amazon.ask.quiz.util;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Collections;
-import java.util.List;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;

@@ -28,10 +28,10 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
 
         int playerNumber = (int) sessionAttributes.get(Attributes.PLAYER_NUMBER_KEY);
-        int score_one = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_FIRST);
-        int score_two = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_SECOND);
-        int counter_one = (int) sessionAttributes.get(Attributes.COUNTER_PLAYER_ONE);
-        int counter_two = (int) sessionAttributes.get(Attributes.COUNTER_PLAYER_TWO);
+        int scoreOne = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_FIRST);
+        //int score_two = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_SECOND)
+        // int counter_one = (int) sessionAttributes.get(Attributes.COUNTER_PLAYER_ONE)
+        //int counter_two = (int) sessionAttributes.get(Attributes.COUNTER_PLAYER_TWO)
         int totalcounter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
         int counter = 0;
         String reversePlayerString = "";
@@ -53,14 +53,14 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         if(totalcounter == 4 ||totalcounter == 6 || totalcounter == 8 || totalcounter == 10)
         {
-            score_one++;
-            sessionAttributes.put(Attributes.QUIZ_SCORE_FIRST, score_one);
+            scoreOne++;
+            sessionAttributes.put(Attributes.QUIZ_SCORE_FIRST, scoreOne);
         }
 
         if(totalcounter > 1)
         {
             String rightmovie = (String) sessionAttributes.get(Attributes.RIGHT_MOVIE);
-            responseText += rightmovie + " ist richtig! " + reversePlayerString + "  hat " + (score_one) + " von " + (score_one) + " Fragen richtig beantwortet. ";
+            responseText += rightmovie + " ist richtig! " + reversePlayerString + "  hat " + (scoreOne) + " von " + (scoreOne) + " Fragen richtig beantwortet. ";
 
             if((totalcounter) > 10) {
 
@@ -86,12 +86,12 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         QuestionPack qp = QuestionDatabase.generateQuestionPack();
 
-        String Quote = qp.getQuote();
-        String Movie = qp.getMovie();
+        String quote = qp.getQuote();
+        String movie = qp.getMovie();
         String fakeOne = qp.getFakeMovieOne();
         String fakeTwo = qp.getFakeMovieTwo();
 
-        responseText += "Das " + totalcounter + "te Zitat lautet gefolgt. " + Quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + Movie + ". Möglichkeit 3 " + fakeTwo + ".";
+        responseText += "Das " + totalcounter + "te Zitat lautet gefolgt. " + quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + movie + ". Möglichkeit 3 " + fakeTwo + ".";
         responseText += " Dies ist eine Beta. Antworte mit Weiter um fortzufahren.";
 
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
