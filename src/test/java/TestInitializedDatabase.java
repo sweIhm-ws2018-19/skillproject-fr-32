@@ -33,7 +33,7 @@ public class TestInitializedDatabase {
         easyQuestions.add(new Question("Die Eiskönigin", "Manche Menschen sind es wert, dass man für sie schmilzt."));
         easyQuestions.add(new Question(kdl, "Hakuna Matata. Das heißt keine Sorgen!"));
         easyQuestions.add(new Question("Das Dschungelbuch", "Probiers mal mit Gemütlichkeit!"));
-        easyQuestions.add(new Question("Rapunzel Neu Verföhnt", "Blume leuchtend schön, kann so mächtig sein. Dreh die Zeit zurück, gib mir was einst was mein."));
+        easyQuestions.add(new Question("Rapunzel Neu Verföhnt", "Blume leuchtend schön, kann so mächtig sein. Dreh die Zeit zurück, gib mir was einst war mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
         easyQuestions.add(new Question("Alice im Wunderland", "Ich wurde geschrumpft, gestreckt, gekratzt und in eine Teekanne gesteckt."));
         easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter Bär!"));
