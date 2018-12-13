@@ -36,7 +36,7 @@ public class MethodUtils {
             sessionAttributes.put(Attributes.CURRENT_QUESTION_OF_PLAYER_ONE, 1);
             sessionAttributes.put(Attributes.CURRENT_QUESTION_OF_PLAYER_TWO, 1);
             sessionAttributes.put(Attributes.COUNTER_KEY, 0);
-            ret = " Bitte antworte im 2 Spieler Modus immer mit - Es ist - wie zum Beispiel - Es ist König der Löwen - Sage aufgehts um mit dem Spiel zu beginnen.";
+            ret = " Bitte antworte im 2 Spieler Modus immer mit - Es ist - wie zum Beispiel - Es ist KÃ¶nig der LÃ¶wen - Sage aufgehts um mit dem Spiel zu beginnen.";
         }
 
         return ret;
