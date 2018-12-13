@@ -64,7 +64,7 @@ public class QuestionDatabase
         easyQuestions.add(new Question("Winnie Puu", "Dummer alter Bär!"));
 
 
-        middleQuestions.add(new Question("Winnieh Puu", "Menschen sagen, nichts ist unmöglich, aber ich mache jeden Tag nichts."));
+        middleQuestions.add(new Question("Winnie Puu", "Menschen sagen, nichts ist unmöglich, aber ich mache jeden Tag nichts."));
         middleQuestions.add(new Question("Die Eiskönigin", "Ich liebe Umarmungen!"));
         middleQuestions.add(new Question("Pocahontas", "Lausche mit dem Herz und du wirst verstehen."));
         middleQuestions.add(new Question("Lilo und Sitch", "Ohana heißt Familie. Familie heißt, dass alle zusammenhalten und füreinander da sind."));
