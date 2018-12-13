@@ -4,7 +4,7 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.quiz.model.Attributes;
-import com.amazon.ask.quiz.util.QuestionDatabase;
+import com.amazon.ask.quiz.model.MethodUtils;
 
 import java.util.Map;
 import java.util.Optional;
@@ -12,31 +12,31 @@ import java.util.Optional;
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
 
-public class SetTwoPlayerIntent implements RequestHandler {
-
+public class HardIntent implements RequestHandler {
 
     @Override
     public boolean canHandle(HandlerInput input) {
-        return input.matches(intentName("SetTwoPlayerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.SELECT_STATE)));
+        return input.matches(intentName("SchwerIntent").and(sessionAttribute(Attributes.STATE_KEY, Attributes.QUIZ_STATE_SELECT_DIFFICULTY) ));
     }
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
+        /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
 
-        sessionAttributes.put(Attributes.PLAYERCOUNTER, 2);
-        sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_SELECT_DIFFICULTY);
+        String responseText = "du hast schwer gewÃ¤hlt.";
 
-        QuestionDatabase.initialize();
+        responseText += MethodUtils.startGame(2, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
 
-        String responseText = "Toll, ein Duell! Möge der Bessere gewinnen. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuwählen.";
+
         return input.getResponseBuilder()
-                .withSpeech(responseText)
-                .withShouldEndSession(false)
-                .build();
+                    .withSpeech(responseText)
+                    .withShouldEndSession(false)
+                    .build();
 
     }
+
 
 
 }

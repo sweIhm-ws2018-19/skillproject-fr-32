@@ -26,7 +26,6 @@ public class LaunchRequestHandler implements RequestHandler {
         sessionAttributes.put(Attributes.STATE_KEY, Attributes.SELECT_STATE);
 
 
-
         return input.getResponseBuilder()
                 .withSpeech(Constants.WELCOME_MESSAGE)
                 .withReprompt(Constants.HELP_MESSAGE)

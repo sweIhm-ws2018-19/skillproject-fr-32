@@ -6,6 +6,13 @@ import com.amazon.ask.model.Response;
 import com.amazon.ask.quiz.model.Attributes;
 import com.amazon.ask.quiz.util.QuestionPack;
 import com.amazon.ask.quiz.util.QuestionDatabase;
+import com.amazon.ask.model.Slot;
+import com.amazon.ask.model.Request;
+import com.amazon.ask.model.Intent;
+import com.amazon.ask.model.IntentRequest;
+
+import java.util.ArrayList;
+import java.util.Collections;
 
 import java.util.Map;
 import java.util.Optional;
@@ -22,21 +29,37 @@ public class GamePlayIntent implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
+        Request request = input.getRequestEnvelope().getRequest();
+        IntentRequest intentRequest = (IntentRequest) request;
+        Intent intent = intentRequest.getIntent();
+        Map<String, Slot> slots = intent.getSlots();
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
-        /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
+        int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY);
         int counter = (int) sessionAttributes.get(Attributes.COUNTER_KEY);
 
         String responseText = "";
 
-        if(counter > 1)
+        if((counter + 1) > 1)
         {
-            String rightmovie = (String) sessionAttributes.get(Attributes.RIGHT_MOVIE);
-            responseText += rightmovie + " ist richtig! Sie haben " + (counter - 1) + " von " + (counter - 1) + " Fragen richtig beantwortet. ";
+            String rightmovie = ((String) sessionAttributes.get(Attributes.RIGHT_MOVIE)).trim().toLowerCase();
 
-            if((counter) > 10) {
+            Slot movieSlot = slots.get("Movies");
+            String said = movieSlot.getValue();
 
-                responseText += " 10 Fragen wurden gestellt. Das Spiel ist somit beendet. Ich freue mich auf ein baldiges wiedersehen bei Magisches Zitate Raten.";
+            if(said.trim().equalsIgnoreCase(rightmovie))
+            {
+                score++;
+                responseText += said + " ist richtig! Du hast " + (score) + " von " + (counter) + " Fragen richtig beantwortet. ";
+                sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, counter);
+            } else
+            {
+                responseText += said + " ist leider falsch! Du hast " + (score) + " von " + (counter) + " Fragen richtig beantwortet. ";
+            }
+
+            if((counter + 1) > 5) {
+
+                responseText += "Das war's, das Spiel ist vorbei. Du hast dich toll geschlagen. Das hat Spaß gemacht! Um nochmal zu Spielen sage einfach Alexa öffne Magisches Zitate Raten. Bis dann!";
 
                 return input.getResponseBuilder()
                         .withSpeech(responseText)
@@ -52,19 +75,25 @@ public class GamePlayIntent implements RequestHandler {
         String fakeOne = qp.getFakeMovieOne();
         String fakeTwo = qp.getFakeMovieTwo();
 
-        responseText += "Das " + counter + "te Zitat lautet gefolgt. " + quote + " Möglichkeit 1 " + fakeOne + ". Möglichkeit 2 " + movie + ". Möglichkeit 3 " + fakeTwo + ".";
-        responseText += " Dies ist eine Beta. Antworte mit Test um fortzufahren.";
+        ArrayList<String> movies = new ArrayList<>();
+
+        movies.add(movie);
+        movies.add(fakeOne);
+        movies.add(fakeTwo);
+
+        Collections.shuffle(movies);
+
+        responseText += "Das " + (counter + 1) + "te Zitate lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
 
         counter++;
-
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
         sessionAttributes.put(Attributes.RIGHT_MOVIE, movie);
+        sessionAttributes.put(Attributes.REPEAT_QUESTION, responseText);
 
-
-            return input.getResponseBuilder()
-                    .withSpeech(responseText)
-                    .withShouldEndSession(false)
-                    .build();
+        return input.getResponseBuilder()
+                .withSpeech(responseText)
+                .withShouldEndSession(false)
+                .build();
 
     }
 

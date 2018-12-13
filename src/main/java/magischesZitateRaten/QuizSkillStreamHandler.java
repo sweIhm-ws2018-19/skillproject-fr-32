@@ -12,6 +12,9 @@ import com.amazon.ask.quiz.handlers.SetOnePlayerIntent;
 import com.amazon.ask.quiz.handlers.SetTwoPlayerIntent;
 import com.amazon.ask.quiz.handlers.GamePlayIntent;
 import com.amazon.ask.quiz.handlers.GamePlayIntentTwoPlayers;
+import com.amazon.ask.quiz.handlers.EasyIntent;
+import com.amazon.ask.quiz.handlers.MiddleIntent;
+import com.amazon.ask.quiz.handlers.HardIntent;
 
 public class QuizSkillStreamHandler extends SkillStreamHandler {
 
@@ -19,7 +22,8 @@ public class QuizSkillStreamHandler extends SkillStreamHandler {
         super(Skills.standard()
                 .addRequestHandlers(new LaunchRequestHandler(), new QuizAndStartOverIntentHandler(),
                              new RepeatIntentHandler(), new HelpIntentHandler(),
-                             new ExitSkillHandler(), new SessionEndedHandler(), new SetOnePlayerIntent(), new SetTwoPlayerIntent(), new GamePlayIntent(), new GamePlayIntentTwoPlayers())
+                             new ExitSkillHandler(), new SessionEndedHandler(), new SetOnePlayerIntent(), new SetTwoPlayerIntent(), new GamePlayIntent(), new GamePlayIntentTwoPlayers(),
+                             new EasyIntent(), new MiddleIntent(), new HardIntent() )
                 .build());
     }
 

@@ -15,6 +15,13 @@ public class QuestionDatabase
     private static Random random;
     private static final ArrayList<Integer> askOrder = new ArrayList<>();
     private static int currentQuestion;
+    private static int difficulty = 0;
+
+    public static void setDifficulty(int d)
+    {
+        difficulty = d;
+    }
+
 
     private QuestionDatabase() { }
 
@@ -27,6 +34,7 @@ public class QuestionDatabase
         random = new Random();
         askOrder.clear();
         currentQuestion = 0;
+        difficulty = 0;
 
     }
 
@@ -50,13 +58,13 @@ public class QuestionDatabase
         easyQuestions.add(new Question("Die Eiskönigin", "Manche Menschen sind es wert, dass man für sie schmilzt."));
         easyQuestions.add(new Question(kdl, "Hakuna Matata. Das heißt keine Sorgen!"));
         easyQuestions.add(new Question("Das Dschungelbuch", "Probiers mal mit Gemütlichkeit!"));
-        easyQuestions.add(new Question("Rapunzel Neu Verföhnt", "Blume leuchtend schön, kann so mächtig sein. Dreh die Zeit zurück, gib mir was einst was mein."));
+        easyQuestions.add(new Question("Rapunzel Neu Verföhnt", "Blume leuchtend schön, kann so mächtig sein. Dreh die Zeit zurück, gib mir was einst war mein."));
         easyQuestions.add(new Question("Toy Story", "Bis zur Unendlichkeit und noch viel weiter!"));
         easyQuestions.add(new Question("Alice im Wunderland", "Ich wurde geschrumpft, gestreckt, gekratzt und in eine Teekanne gesteckt."));
-        easyQuestions.add(new Question("Winnieh Puuh", "Dummer alter Bär!"));
+        easyQuestions.add(new Question("Winnie Puu", "Dummer alter Bär!"));
 
 
-        middleQuestions.add(new Question("Winnieh Puuh", "Menschen sagen, nichts ist unmöglich, aber ich mache jeden Tag nichts."));
+        middleQuestions.add(new Question("Winnieh Puu", "Menschen sagen, nichts ist unmöglich, aber ich mache jeden Tag nichts."));
         middleQuestions.add(new Question("Die Eiskönigin", "Ich liebe Umarmungen!"));
         middleQuestions.add(new Question("Pocahontas", "Lausche mit dem Herz und du wirst verstehen."));
         middleQuestions.add(new Question("Lilo und Sitch", "Ohana heißt Familie. Familie heißt, dass alle zusammenhalten und füreinander da sind."));
@@ -99,9 +107,25 @@ public class QuestionDatabase
             randomNumberTwo = random.nextInt(max - min + 1) + min;
         }
 
-        String randomMovieOne = easyQuestions.get(randomNumberOne).getMovie();
-        String randomMovieTwo = easyQuestions.get(randomNumberTwo).getMovie();
-        Question randomQuestion = easyQuestions.get(currentQuestionSelect);
+        ArrayList<Question> selectedQuestions;
+
+        if(difficulty == 0)
+        {
+            selectedQuestions = easyQuestions;
+        } else if(difficulty == 1)
+        {
+            selectedQuestions = middleQuestions;
+        } else if(difficulty == 2)
+        {
+            selectedQuestions = hardQuestions;
+        } else
+        {
+            selectedQuestions = easyQuestions;
+        }
+
+        String randomMovieOne = selectedQuestions.get(randomNumberOne).getMovie();
+        String randomMovieTwo = selectedQuestions.get(randomNumberTwo).getMovie();
+        Question randomQuestion = selectedQuestions.get(currentQuestionSelect);
 
         currentQuestion++;
 

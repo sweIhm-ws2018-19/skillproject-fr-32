@@ -23,13 +23,17 @@ public class SetOnePlayerIntent implements RequestHandler {
     public Optional<Response> handle(HandlerInput input) {
 
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
-        sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_ONE_PLAYER);
-        sessionAttributes.put(Attributes.COUNTER_KEY, 1);
-        sessionAttributes.put(Attributes.QUIZ_SCORE_KEY, 0);
 
         QuestionDatabase.initialize();
 
-        String responseText = "Alles klar. Sie sind ein Spieler. Sag los um mit dem Spiel zu beginnen.";
+
+
+        sessionAttributes.put(Attributes.PLAYERCOUNTER, 1);
+        sessionAttributes.put(Attributes.STATE_KEY, Attributes.QUIZ_STATE_SELECT_DIFFICULTY);
+
+
+
+        String responseText = "Alles klar, wir werden viel Spaﬂ zusammen haben. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuw‰hlen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
                 .withShouldEndSession(false)
