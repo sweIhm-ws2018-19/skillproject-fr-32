@@ -45,6 +45,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         String responseText = "";
         final String frb = " Fragen richtig beantwortet. ";
+        final String von = " von ";
 
         if((totalcounter + 1) > 1) //spiel ist bereits nach der ersten frage
         {
@@ -56,7 +57,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
             if(said.trim().equalsIgnoreCase(rightmovie))
             {
 
-                final String von = " von ";
+
 
 
                 if(currentPlayer == 1)
