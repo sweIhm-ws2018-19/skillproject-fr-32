@@ -16,8 +16,7 @@ public class TestConstants {
     public void doTestConstants() {
 
 
-        String a = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum," +
-                " alleine oder gegen einen zweiten Spieler Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores. Spielst du alleine oder zu zweit?";
+        String a = "Willkommen bei Magisches Zitate Raten! In diesem Spiel teste ich dein Zitate-Wissen. Denn nur der Beste schafft es durch den Zauberwald. Spielst du alleine oder zu zweit?";
 
         // This is the message a user will hear when they try to cancel or stop the
         // skill, or when they finish a quiz.
@@ -25,7 +24,7 @@ public class TestConstants {
 
         // This is the message a user will hear when they ask Alexa for help in your
         // skill.
-        String c = "Danke für das Öffnen von Magische Zitate Raten. In diesem Spiel geht es darum, alleine oder gegen einen zweiten Spieler Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores.";
+        String c = "Dies ist die Hilfe-Funktion von Magisches Zitate Raten. In diesem Spiel geht es darum, alleine oder gegen einen zweiten Spieler Zitate zu erraten. Der Gewinner steht an der Spitze des High-Scores.";
 
         assertEquals(a, Constants.WELCOME_MESSAGE);
         assertEquals(b, Constants.EXIT_SKILL_MESSAGE);

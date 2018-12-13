@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/main/java/magischesZitateRaten/model/Attributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/magischesZitateRaten/model/Attributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/TestConstants.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestUninitializedDatabase.java">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="245" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="245" />
             </state>
           </provider>
         </entry>
@@ -68,11 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/java/TestConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="306">
+              <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -145,6 +146,7 @@
       <find>score_one</find>
       <find>movie</find>
       <find>Blume</find>
+      <find>von</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +165,6 @@
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/QuizAndStartOverIntentHandler.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SessionEndedHandler.java" />
         <option value="$PROJECT_DIR$/test/java/TestAttributes.java" />
-        <option value="$PROJECT_DIR$/test/java/TestConstants.java" />
         <option value="$PROJECT_DIR$/test/java/TestQuestionPack.java" />
         <option value="$PROJECT_DIR$/test/java/TestQuestion.java" />
         <option value="$PROJECT_DIR$/test/java/TestUninitializedDatabase.java" />
@@ -185,6 +186,7 @@
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/RepeatQuestionIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" />
+        <option value="$PROJECT_DIR$/test/java/TestConstants.java" />
       </list>
     </option>
   </component>
@@ -271,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544693089090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544694404926" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/skillproject-fr-32/src/main/java/colorpicker" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -322,12 +324,12 @@
       <workItem from="1544543984599" duration="14952000" />
       <workItem from="1544616088991" duration="4096000" />
       <workItem from="1544627919286" duration="8050000" />
-      <workItem from="1544685525974" duration="6276000" />
+      <workItem from="1544685525974" duration="6591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64752000" />
+    <option name="totallyTimeSpent" value="65067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -511,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/MethodUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -585,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -633,6 +621,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="49" column="55" lean-forward="true" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="245" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
