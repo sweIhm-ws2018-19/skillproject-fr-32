@@ -6,6 +6,7 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import org.junit.Before;
 import org.mockito.Mockito;
 import com.amazon.ask.quiz.handlers.LaunchRequestHandler;
+import com.amazon.ask.quiz.model.Constants;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
@@ -28,6 +29,17 @@ public class TestLaunchRequest {
         final HandlerInput inputMock = Mockito.mock(HandlerInput.class);
         when(inputMock.matches(any())).thenReturn(true);
         assertTrue(handler.canHandle(inputMock));
+    }
+
+    @Test
+    public void testHandle() {
+        final HandlerInput mockInput = TestUtil.mockHandlerInput(null, null, null, null);
+        final Optional<Response> res = testHandler.handle(mockInput);
+
+        assertTrue(res.isPresent());
+        final Response response = res.get();
+        assertTrue(response.getOutputSpeech().toString().contains(Constants.WELCOME_MESSAGE));
+        assertTrue(response.getReprompt().toString().contains(Constants.HELP_MESSAGE));
     }
 
 }
