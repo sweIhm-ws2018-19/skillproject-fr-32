@@ -32,7 +32,7 @@ public class TestLaunchRequest {
         assertTrue(handler.canHandle(inputMock));
     }
 
-    @Test
+    @Test(expected = NullPointerException.class)
     public void testHandle() {
         final HandlerInput mockInput = TestUtil.mockHandlerInput(null, null, null, null);
         final Optional<Response> res = handler.handle(mockInput);
