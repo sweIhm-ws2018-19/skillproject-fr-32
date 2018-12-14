@@ -5,7 +5,7 @@ import org.junit.Test;
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import org.junit.Before;
 import org.mockito.Mockito;
-import com.amazon.ask.quiz.handlers.TestSetTwoPlayerIntent;
+import com.amazon.ask.quiz.handlers.SetTwoPlayerIntent;
 import com.amazon.ask.model.Response;
 import java.util.Optional;
 
