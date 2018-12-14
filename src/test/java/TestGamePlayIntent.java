@@ -6,6 +6,8 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import org.junit.Before;
 import org.mockito.Mockito;
 import com.amazon.ask.quiz.handlers.GamePlayIntent;
+import com.amazon.ask.model.Response;
+import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
