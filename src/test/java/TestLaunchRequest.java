@@ -7,6 +7,8 @@ import org.junit.Before;
 import org.mockito.Mockito;
 import com.amazon.ask.quiz.handlers.LaunchRequestHandler;
 import com.amazon.ask.quiz.model.Constants;
+import com.amazon.ask.model.Response;
+import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
 import static com.amazon.ask.request.Predicates.sessionAttribute;
@@ -34,7 +36,7 @@ public class TestLaunchRequest {
     @Test
     public void testHandle() {
         final HandlerInput mockInput = TestUtil.mockHandlerInput(null, null, null, null);
-        final Optional<Response> res = testHandler.handle(mockInput);
+        final Optional<Response> res = handler.handle(mockInput);
 
         assertTrue(res.isPresent());
         final Response response = res.get();
