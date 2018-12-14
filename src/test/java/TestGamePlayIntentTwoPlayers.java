@@ -30,4 +30,15 @@ public class TestGamePlayIntentTwoPlayers {
         assertTrue(handler.canHandle(inputMock));
     }
 
+    @Test(expected = NullPointerException.class)
+    public void testHandle() {
+        final HandlerInput mockInput = TestUtil.mockHandlerInput(null, null, null, null);
+        final Optional<Response> res = handler.handle(mockInput);
+
+        assertTrue(res.isPresent());
+        final Response response = res.get();
+        assertTrue(response.getOutputSpeech().toString().length() >= 0);
+        assertTrue(response.getReprompt().toString().length() >= 0);
+    }
+
 }
