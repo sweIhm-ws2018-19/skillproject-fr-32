@@ -25,7 +25,7 @@ public class HardIntent implements RequestHandler {
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
 
-        String responseText = "du hast schwer gewählt.";
+        String responseText = "Du hast schwer gewählt.";
 
         responseText += MethodUtils.startGame(2, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
 
