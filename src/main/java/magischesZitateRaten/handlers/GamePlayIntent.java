@@ -83,7 +83,7 @@ public class GamePlayIntent implements RequestHandler {
 
         Collections.shuffle(movies);
 
-        responseText += "Das " + (counter + 1) + "te Zitate lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
+        responseText += "Das " + (counter + 1) + "te Zitat lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
 
         counter++;
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);
