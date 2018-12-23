@@ -1,0 +1,15 @@
+com\amazon\ask\test\java\TestEasyIntent.class
+com\amazon\ask\test\java\TestGamePlayIntentTwoPlayers.class
+com\amazon\ask\test\java\TestUninitializedDatabase.class
+com\amazon\ask\test\java\TestSetOnePlayerIntent.class
+com\amazon\ask\test\java\TestAttributes.class
+com\amazon\ask\test\java\TestSetTwoPlayerIntent.class
+com\amazon\ask\test\java\TestQuestion.class
+com\amazon\ask\test\java\TestUtil.class
+com\amazon\ask\test\java\TestConstants.class
+com\amazon\ask\test\java\TestQuestionPack.class
+com\amazon\ask\test\java\TestLaunchRequest.class
+com\amazon\ask\test\java\TestHardIntent.class
+com\amazon\ask\test\java\TestMiddleIntent.class
+com\amazon\ask\test\java\TestGamePlayIntent.class
+com\amazon\ask\test\java\TestInitializedDatabase.class
