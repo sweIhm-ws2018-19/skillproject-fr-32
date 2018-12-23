@@ -142,7 +142,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         Collections.shuffle(movies);
 
-        responseText += "Das " + (totalcounter + 1) + "te Zitate lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
+        responseText += "Das " + (totalcounter + 1) + "te Zitat lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
 
         totalcounter++;
         sessionAttributes.put(Attributes.RIGHT_MOVIE, movie);
