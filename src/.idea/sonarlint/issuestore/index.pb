@@ -51,3 +51,17 @@ p
 @main/java/magischesZitateRaten/handlers/RepeatIntentHandler.java,b\d\bd5c04e14ccfe94b3ad93526ebb4b49da073558d
 n
 >main/java/magischesZitateRaten/handlers/HelpIntentHandler.java,3\f\3f3ca209dc20e5a2bf2acc49b235558fd526b611
+M
+test/java/TestEasyIntent.java,0\a\0addc0692c566000d9a82f92f64c4f8208d714e0
+[
++test/java/TestGamePlayIntentTwoPlayers.java,3\3\331967c1e794bd5b730000183c22aa4d0258f945
+Q
+!test/java/TestGamePlayIntent.java,0\f\0fb0df603937c53d04ff75b8341ece207af69dcf
+M
+test/java/TestHardIntent.java,a\0\a0393a5619225fb686e8fb19caf4b92a5dbd7b22
+G
+test/java/TestUtil.java,b\0\b0b95a24e94df10184995eeb76f3bc485cd72aec
+U
+%test/java/TestSetTwoPlayerIntent.java,5\d\5d354dc9193988bae15c23dc34218753de609949
+P
+ test/java/TestLaunchRequest.java,8\c\8c5c229acee4b994bc8e2064c0d33752c4cd978b
