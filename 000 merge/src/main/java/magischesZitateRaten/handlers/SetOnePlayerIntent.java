@@ -33,7 +33,7 @@ public class SetOnePlayerIntent implements RequestHandler {
 
 
 
-        String responseText = "Alles klar, wir werden viel Spaﬂ zusammen haben. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuw‰hlen.";
+        String responseText = "Alles klar, wir werden viel Spa√ü zusammen haben. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuw√§hlen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
                 .withShouldEndSession(false)

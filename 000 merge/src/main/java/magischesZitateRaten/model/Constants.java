@@ -10,7 +10,7 @@ public class Constants {
 
     // This is the message a user will hear when they try to cancel or stop the
     // skill, or when they finish a quiz.
-    public static final String EXIT_SKILL_MESSAGE = "Vielen Dank für das Spielen von Magisches Zitate Raten. Bis bald!";
+    public static final String EXIT_SKILL_MESSAGE = "Vielen Dank fÃ¼r das Spielen von Magisches Zitate Raten. Bis bald!";
 
     // This is the message a user will hear when they ask Alexa for help in your
     // skill.

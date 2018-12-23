@@ -59,7 +59,7 @@ public class GamePlayIntent implements RequestHandler {
 
             if((counter + 1) > 5) {
 
-                responseText += "Das war's, das Spiel ist vorbei. Du hast dich toll geschlagen. Das hat Spaß gemacht! Um nochmal zu Spielen sage einfach Alexa öffne Magisches Zitate Raten. Bis dann!";
+                responseText += "Das war's, das Spiel ist vorbei. Du hast dich toll geschlagen. Das hat SpaÃŸ gemacht! Um nochmal zu Spielen sage einfach Alexa Ã¶ffne Magisches Zitate Raten. Bis dann!";
 
                 return input.getResponseBuilder()
                         .withSpeech(responseText)

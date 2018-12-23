@@ -30,7 +30,7 @@ public class SetTwoPlayerIntent implements RequestHandler {
 
         QuestionDatabase.initialize();
 
-        String responseText = "Toll, ein Duell! Möge der Bessere gewinnen. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuwählen.";
+        String responseText = "Toll, ein Duell! MÃ¶ge der Bessere gewinnen. Sage Leicht, Mittel, oder Schwer um den Schwierigkeitsgrad auszuwÃ¤hlen.";
         return input.getResponseBuilder()
                 .withSpeech(responseText)
                 .withShouldEndSession(false)

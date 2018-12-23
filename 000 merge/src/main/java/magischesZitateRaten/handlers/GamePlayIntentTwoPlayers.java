@@ -103,16 +103,16 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
                 if(scorePlayerOne > scorePlayerTwo)
                 {
-                    playerWon =  "Herzlichen Glückwunsch Spieler 1. Du hast gewonnen! ";
+                    playerWon =  "Herzlichen GlÃ¼ckwunsch Spieler 1. Du hast gewonnen! ";
                 } else if(scorePlayerOne == scorePlayerTwo)
                 {
-                    playerWon =  " Unentschieden! Was für ein Kopf-an-Kopf Rennen. ";
+                    playerWon =  " Unentschieden! Was fÃ¼r ein Kopf-an-Kopf Rennen. ";
                 } else
                 {
-                    playerWon =  "Herzlichen Glückwunsch Spieler 2. Du hast gewonnen! ";
+                    playerWon =  "Herzlichen GlÃ¼ckwunsch Spieler 2. Du hast gewonnen! ";
                 }
 
-                responseText += "Das war's, das Spiel ist vorbei. Ihr habt euch toll geschlagen. Spieler 1, du hast " + scorePlayerOne + " Punkte erlangt. Spieler 2, du hast " + scorePlayerTwo + " Punkte erlangt." + playerWon + "Um nochmal zu Spielen sage einfach - Alexa - öffne Magisches Zitate Raten. Bis dann!";
+                responseText += "Das war's, das Spiel ist vorbei. Ihr habt euch toll geschlagen. Spieler 1, du hast " + scorePlayerOne + " Punkte erlangt. Spieler 2, du hast " + scorePlayerTwo + " Punkte erlangt." + playerWon + "Um nochmal zu Spielen sage einfach - Alexa - Ã¶ffne Magisches Zitate Raten. Bis dann!";
 
                 return input.getResponseBuilder()
                         .withSpeech(responseText)
@@ -142,7 +142,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
         Collections.shuffle(movies);
 
-        responseText += "Das " + (totalcounter + 1) + "te Zitate lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
+        responseText += "Das " + (totalcounter + 1) + "te Zitat lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
 
         totalcounter++;
         sessionAttributes.put(Attributes.RIGHT_MOVIE, movie);
