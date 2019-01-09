@@ -74,5 +74,31 @@ public class TestGamePlayIntent {
         assertTrue(response.getOutputSpeech().toString().contains("Das"));
     }
 
+    @Test
+    public void rightMovieTest(){
+        final Map<String, Object> sessionAttributes = new HashMap<>();
+        final Map<String, Object> persistentAttributes = new HashMap<>();
+        final Map<String, String> slots = new HashMap<>();
+        slots.put("Movies", "Mulan");
+        slots.put("quizscore", "0");
+        slots.put("counter", "0");
+
+        QuestionDatabase.initialize();
+
+        sessionAttributes.put("rightmovie", "Mulan");
+        sessionAttributes.put("quizscore", 0);
+        sessionAttributes.put("counter", 7);
+
+        final HandlerInput inputMock = TestUtil.mockHandlerInput(slots, sessionAttributes, persistentAttributes, null);
+        final Optional<Response> res = handler.handle(inputMock);
+
+
+        assertTrue(res.isPresent());
+        final Response response = res.get();
+
+        assertTrue(response.getShouldEndSession());
+        assertNotNull(response.getOutputSpeech());
+        assertTrue(response.getOutputSpeech().toString().contains("richtig"));
+    }
 
 }
