@@ -27,8 +27,6 @@ public class HardIntent implements RequestHandler {
 
         String responseText = "Du hast schwer gewählt.";
 
-        responseText += MethodUtils.startGame(2, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
-
 
         return input.getResponseBuilder()
                     .withSpeech(responseText)

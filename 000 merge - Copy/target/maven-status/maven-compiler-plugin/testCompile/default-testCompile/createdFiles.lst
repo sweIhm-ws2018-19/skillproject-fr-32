@@ -6,6 +6,7 @@ com\amazon\ask\test\java\TestAttributes.class
 com\amazon\ask\test\java\TestSetTwoPlayerIntent.class
 com\amazon\ask\test\java\TestQuestion.class
 com\amazon\ask\test\java\TestUtil.class
+com\amazon\ask\test\java\TestSessionEnded.class
 com\amazon\ask\test\java\TestConstants.class
 com\amazon\ask\test\java\TestQuestionPack.class
 com\amazon\ask\test\java\TestLaunchRequest.class

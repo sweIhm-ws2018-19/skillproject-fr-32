@@ -2,95 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022bb6b5-8527-48a3-9d1e-d48d0ccc48d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/1/7/17a6fa828403f7844b17cbf455ef6f98e2fb8f96" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/1/7/17a6fa828403f7844b17cbf455ef6f98e2fb8f96" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/1/b/1b05fd903139dd6e3d5161bc203fa4b00553e48c" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/1/b/1b05fd903139dd6e3d5161bc203fa4b00553e48c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/2/1/21704a97dbe57e51f59de0d024efa43ba5119b6b" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/2/1/21704a97dbe57e51f59de0d024efa43ba5119b6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/2/4/24abc0d83e54493f1a87255656233b1581d8d046" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/2/4/24abc0d83e54493f1a87255656233b1581d8d046" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/3/3344196230baf111dbf8e1323410c2f1316b00a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/7/37cc17c0b8269fc0d170559e5312dfe39fd92463" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/8/38970681a6314906cef9938b300e47e3ac6041f5" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/8/38970681a6314906cef9938b300e47e3ac6041f5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/a/3af781da65d7a757299ff556ac646506e077bc42" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/a/3af781da65d7a757299ff556ac646506e077bc42" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/d/3deec7f9ead00065b9689396f1dc4f3ab483f979" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/d/3deec7f9ead00065b9689396f1dc4f3ab483f979" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/f/3f3ca209dc20e5a2bf2acc49b235558fd526b611" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/3/f/3f3ca209dc20e5a2bf2acc49b235558fd526b611" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/1/519158a713a586707fc97b46f8da24845c77efd7" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/1/519158a713a586707fc97b46f8da24845c77efd7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/4/542be6399082e718fc19f5b632c789e1d756c6a0" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/4/542be6399082e718fc19f5b632c789e1d756c6a0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/7/57607a18f33c784470112e454ff086a464211f32" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/7/57607a18f33c784470112e454ff086a464211f32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/5/f/5f1c5f13528230f8c29690430575815afaf1aab7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/7/5/754cb0e25fafca2395a53794af0202dc82ab5cc2" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/7/5/754cb0e25fafca2395a53794af0202dc82ab5cc2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/7/8/78b7f22e4f040f1d9c31ec3c65b32fe95612db6f" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/7/8/78b7f22e4f040f1d9c31ec3c65b32fe95612db6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/7/d/7d43dbb480c883cf88554b3db3ab9f786d65e441" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/3/83eab7edb8dced0f430102d2b22b64497b215e69" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/3/83eab7edb8dced0f430102d2b22b64497b215e69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/8/8846fa8805f9ec4485fc421fbab6684d24bbe4d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/c/8cf75edc823898b195f66cf698235783f2d05a40" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/c/8cf75edc823898b195f66cf698235783f2d05a40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/8/f/8ff665414ce844e198aa81301ec2e7fa5e4e198f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/a/e/aef659940b16016c03ed7273e25848e984ef5a43" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/a/e/aef659940b16016c03ed7273e25848e984ef5a43" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/a/f/af02ed484f9857ff35b373b156630a588fdb5c19" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/a/f/af02ed484f9857ff35b373b156630a588fdb5c19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/b/d/bd5c04e14ccfe94b3ad93526ebb4b49da073558d" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/b/d/bd5c04e14ccfe94b3ad93526ebb4b49da073558d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/e/5/e5d260b3abb35d7e93e37ba59e4630ace63599a5" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/e/5/e5d260b3abb35d7e93e37ba59e4630ace63599a5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/f/5/f5ef7fdb5502e33f0a15c20e41eb45758bcd9604" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/EasyIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/EasyIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/GamePlayIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/HardIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/HardIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/MiddleIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/MiddleIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/model/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/model/MethodUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/model/MethodUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/util/QuestionDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/src/main/java/magischesZitateRaten/util/QuestionDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestAttributes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestEasyIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestGamePlayIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestGamePlayIntentTwoPlayers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestHardIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestInitializedDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestLaunchRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestMiddleIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestQuestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestQuestionPack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestSetOnePlayerIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestSetTwoPlayerIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestUninitializedDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/src/test/java/TestUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/EasyIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/EasyIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/GamePlayIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/GamePlayIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/GamePlayIntentTwoPlayers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/GamePlayIntentTwoPlayers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/HardIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/HardIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/MiddleIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/classes/com/amazon/ask/quiz/handlers/MiddleIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/quiz-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/quiz-1.0-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../000 merge/target/quiz-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../000 merge/target/quiz-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/0/a/0addc0692c566000d9a82f92f64c4f8208d714e0" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/0/a/0addc0692c566000d9a82f92f64c4f8208d714e0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/0/f/0fb0df603937c53d04ff75b8341ece207af69dcf" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/0/f/0fb0df603937c53d04ff75b8341ece207af69dcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/3/331967c1e794bd5b730000183c22aa4d0258f945" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/3/331967c1e794bd5b730000183c22aa4d0258f945" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/3/3344196230baf111dbf8e1323410c2f1316b00a9" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/3/3344196230baf111dbf8e1323410c2f1316b00a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/7/37cc17c0b8269fc0d170559e5312dfe39fd92463" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/3/7/37cc17c0b8269fc0d170559e5312dfe39fd92463" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/4/542be6399082e718fc19f5b632c789e1d756c6a0" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/4/542be6399082e718fc19f5b632c789e1d756c6a0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/d/5d354dc9193988bae15c23dc34218753de609949" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/d/5d354dc9193988bae15c23dc34218753de609949" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/f/5f1c5f13528230f8c29690430575815afaf1aab7" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/5/f/5f1c5f13528230f8c29690430575815afaf1aab7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/7/5/754cb0e25fafca2395a53794af0202dc82ab5cc2" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/7/5/754cb0e25fafca2395a53794af0202dc82ab5cc2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/7/d/7d43dbb480c883cf88554b3db3ab9f786d65e441" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/7/d/7d43dbb480c883cf88554b3db3ab9f786d65e441" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/c/8c5c229acee4b994bc8e2064c0d33752c4cd978b" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/c/8c5c229acee4b994bc8e2064c0d33752c4cd978b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/c/8cf75edc823898b195f66cf698235783f2d05a40" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/c/8cf75edc823898b195f66cf698235783f2d05a40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/f/8ff665414ce844e198aa81301ec2e7fa5e4e198f" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/8/f/8ff665414ce844e198aa81301ec2e7fa5e4e198f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/a/0/a0393a5619225fb686e8fb19caf4b92a5dbd7b22" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/a/0/a0393a5619225fb686e8fb19caf4b92a5dbd7b22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/b/0/b0b95a24e94df10184995eeb76f3bc485cd72aec" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/b/0/b0b95a24e94df10184995eeb76f3bc485cd72aec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/e/5/e5d260b3abb35d7e93e37ba59e4630ace63599a5" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/e/5/e5d260b3abb35d7e93e37ba59e4630ace63599a5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/TestSetOnePlayerIntent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/TestSetTwoPlayerIntent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/quiz-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../target/quiz-1.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/quiz-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../target/quiz-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestAttributes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestAttributes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestEasyIntent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestEasyIntent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestSetOnePlayerIntent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestSetOnePlayerIntent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestSetTwoPlayerIntent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.amazon.ask.test.java.TestSetTwoPlayerIntent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestAttributes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestAttributes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestConstants.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestConstants.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestEasyIntent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestEasyIntent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestLaunchRequest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestLaunchRequest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestMiddleIntent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestMiddleIntent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestQuestion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestQuestion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestSetOnePlayerIntent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestSetOnePlayerIntent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestSetTwoPlayerIntent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.amazon.ask.test.java.TestSetTwoPlayerIntent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestEasyIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestEasyIntent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestSetOnePlayerIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestSetOnePlayerIntent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestSetTwoPlayerIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/com/amazon/ask/test/java/TestSetTwoPlayerIntent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/magischesZitateRaten/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/magischesZitateRaten/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/magischesZitateRaten/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/magischesZitateRaten/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/test/java/TestLaunchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/test/java/TestLaunchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/test/java/TestSetOnePlayerIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/test/java/TestSetOnePlayerIntent.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,44 +34,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/java/TestLaunchRequest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/TestSetOnePlayerIntent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestUtil.java">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/EasyIntent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="340">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/TestEasyIntent.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestGamePlayIntent.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestAttributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/java/TestMiddleIntent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/TestHardIntent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/MiddleIntent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HardIntent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
+            <state relative-caret-position="1696">
               <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -155,35 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java">
+        <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ExitSkillHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestGamePlayIntentTwoPlayers.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestHardIntent.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/TestUninitializedDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -227,10 +191,7 @@
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/QuizSkillStreamHandler.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java" />
-        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HardIntent.java" />
-        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/MiddleIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/LaunchRequestHandler.java" />
-        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/EasyIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/model/MethodUtils.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ReplayIntent.java" />
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ReplayIntentNo.java" />
@@ -244,12 +205,21 @@
         <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java" />
         <option value="$PROJECT_DIR$/test/java/TestLaunchRequest.java" />
         <option value="$PROJECT_DIR$/test/java/TestUtil.java" />
+        <option value="$PROJECT_DIR$/test/java/TestSessionEnded.java" />
+        <option value="$PROJECT_DIR$/test/java/TestSetOnePlayerIntent.java" />
+        <option value="$PROJECT_DIR$/test/java/TestSetTwoPlayerIntent.java" />
+        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/EasyIntent.java" />
+        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HardIntent.java" />
+        <option value="$PROJECT_DIR$/test/java/TestEasyIntent.java" />
+        <option value="$PROJECT_DIR$/test/java/TestHardIntent.java" />
+        <option value="$PROJECT_DIR$/test/java/TestMiddleIntent.java" />
+        <option value="$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/MiddleIntent.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="30" />
+    <option name="x" value="645" />
+    <option name="y" value="225" />
     <option name="width" value="1252" />
     <option name="height" value="1057" />
   </component>
@@ -331,7 +301,7 @@
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.7932923" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544695004221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547049524261" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -342,14 +312,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Sonar\Documents\blabla\skillproject-fr-32\src\test\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonar\Documents\LETZTE\skillproject-fr-32\000 merge - Copy\src\test\java" />
       <recent name="C:\Users\Sonar\Documents\skillproject-fr-32\src\main\java\magischesZitateRaten\handlers" />
       <recent name="C:\Users\Sonar\Documents\skillproject-fr-32\src\main\java\magischesZitateRaten\model" />
       <recent name="C:\Users\Sonar\Documents\blabla\skillproject-fr-32\src\test\java" />
       <recent name="C:\Users\Marco\Desktop\blabla\skillproject-fr-32\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sonar\Documents\blabla\skillproject-fr-32\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,15 +358,15 @@
       <workItem from="1545571700186" duration="455000" />
       <workItem from="1547043481051" duration="667000" />
       <workItem from="1547045153137" duration="319000" />
-      <workItem from="1547045822514" duration="369000" />
+      <workItem from="1547045822514" duration="3680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68583000" />
+    <option name="totallyTimeSpent" value="71894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="30" width="1252" height="1057" extended-state="0" />
+    <frame x="645" y="225" width="1252" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28942952" />
@@ -436,37 +407,6 @@
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/NoAnswerIntentHandler.java" />
     <entry file="file://$PROJECT_DIR$/test/java/TestQuestionDatabase.java" />
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/WrongDifficultyIntent.java" />
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/QuizAndStartOverIntentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SessionEndedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/MiddleIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/QuizSkillStreamHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -488,89 +428,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ReplayIntentNo.java" />
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ReplayIntentYes.java" />
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/RepeatIntentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/EasyIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Attributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/RepeatQuestionIntent.java" />
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HardIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/MethodUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="245" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="245" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ExitSkillHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -594,36 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestQuestionPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestSetOnePlayerIntent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestSetTwoPlayerIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -634,26 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/LaunchRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestEasyIntent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestGamePlayIntent.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -663,32 +475,6 @@
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestGamePlayIntentTwoPlayers.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/TestHardIntent.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestUninitializedDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -707,14 +493,243 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/LaunchRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestGamePlayIntentTwoPlayers.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestInitializedDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/util/QuestionDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/QuizAndStartOverIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/RepeatIntentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SessionEndedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="245" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestQuestionPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/TestLaunchRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="398">
           <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetTwoPlayerIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestSetTwoPlayerIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestSessionEnded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/SetOnePlayerIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/model/MethodUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntentTwoPlayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1696">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/ExitSkillHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/GamePlayIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/EasyIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestSetOnePlayerIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestEasyIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestHardIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/HardIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/magischesZitateRaten/handlers/MiddleIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/TestMiddleIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

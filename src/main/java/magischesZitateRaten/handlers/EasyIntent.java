@@ -27,8 +27,6 @@ public class EasyIntent implements RequestHandler {
 
         String responseText = "Du hast leicht gewählt.";
 
-        responseText += MethodUtils.startGame(0, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
-
             return input.getResponseBuilder()
                     .withSpeech(responseText)
                     .withShouldEndSession(false)
