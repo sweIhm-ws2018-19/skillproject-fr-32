@@ -59,7 +59,7 @@ public class GamePlayIntent implements RequestHandler {
 
             if((counter + 1) > 5) {
 
-                responseText += "Das war's, das Spiel ist vorbei. Du hast dich toll geschlagen. Das hat SpaÃŸ gemacht! Um nochmal zu Spielen sage einfach Alexa Ã¶ffne Magisches Zitate Raten. Bis dann!";
+                responseText += "Das war's, das Spiel ist vorbei. Du hast dich toll geschlagen. Das hat Spaß gemacht! Um nochmal zu Spielen sage einfach Alexa öffne Magisches Zitate Raten. Bis dann!";
 
                 return input.getResponseBuilder()
                         .withSpeech(responseText)
@@ -83,7 +83,7 @@ public class GamePlayIntent implements RequestHandler {
 
         Collections.shuffle(movies);
 
-        responseText += "Das " + (counter + 1) + "te Zitate lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
+        responseText += "Das " + (counter + 1) + "te Zitat lautet. " + quote + " ist es - " + movies.get(0) + " - " + movies.get(1) + " - oder - " + movies.get(2) + ".";
 
         counter++;
         sessionAttributes.put(Attributes.COUNTER_KEY, counter);

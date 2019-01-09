@@ -25,7 +25,7 @@ public class MiddleIntent implements RequestHandler {
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
 
-        String responseText = "Du hast mittel gew√§hlt.";
+        String responseText = "du hast mittel gew‰hlt.";
 
         responseText += MethodUtils.startGame(1, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
 

@@ -14,19 +14,19 @@
       <change beforePath="$PROJECT_DIR$/model/Attributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Attributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/QuestionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/QuestionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/AnswerIntentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/AnswerIntentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/LaunchRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/LaunchRequestHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/QuizAndStartOverIntentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/QuizAndStartOverIntentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/SetOnePlayerIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/SetOnePlayerIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/SetTwoPlayerIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/handlers/SetTwoPlayerIntent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/model/Attributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/model/Attributes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/model/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/model/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/util/QuestionUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/util/QuestionUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/util/QuestionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/classes/com/amazon/ask/quiz/util/QuestionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/quiz-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/quiz-1.0-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../target/quiz-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../target/quiz-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../../../models/en-US.json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/AnswerIntentHandler.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/AnswerIntentHandler.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/LaunchRequestHandler.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/LaunchRequestHandler.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/QuizAndStartOverIntentHandler.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/QuizAndStartOverIntentHandler.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/SetOnePlayerIntent.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/SetOnePlayerIntent.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/SetTwoPlayerIntent.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/handlers/SetTwoPlayerIntent.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/model/Attributes.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/model/Attributes.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/model/Constants.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/model/Constants.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/util/QuestionUtils$1.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/util/QuestionUtils$1.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/classes/com/amazon/ask/quiz/util/QuestionUtils.class" beforeDir="false" afterPath="$USER_HOME$/target/classes/com/amazon/ask/quiz/util/QuestionUtils.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$USER_HOME$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/quiz-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$USER_HOME$/target/quiz-1.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$USER_HOME$/target/quiz-1.0.jar" beforeDir="false" afterPath="$USER_HOME$/target/quiz-1.0.jar" afterDir="false" />
+      <change beforePath="C:/models/en-US.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,9 +205,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="830" />
-    <option name="y" value="89" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="105" />
     <option name="width" value="1270" />
     <option name="height" value="1040" />
   </component>

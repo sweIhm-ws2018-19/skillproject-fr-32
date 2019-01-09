@@ -47,7 +47,7 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
         final String frb = " Fragen richtig beantwortet. ";
         final String von = " von ";
 
-        if((totalcounter + 1) > 1) //spiel ist bereits nach der ersten frage
+        if((totalcounter + 1) > 1) //spiel ist bereits nach der ersten frage...
         {
             String rightmovie = ((String) sessionAttributes.get(Attributes.RIGHT_MOVIE)).trim().toLowerCase();
 
@@ -103,16 +103,16 @@ public class GamePlayIntentTwoPlayers implements RequestHandler {
 
                 if(scorePlayerOne > scorePlayerTwo)
                 {
-                    playerWon =  "Herzlichen GlÃ¼ckwunsch Spieler 1. Du hast gewonnen! ";
+                    playerWon =  "Herzlichen Glückwunsch Spieler 1. Du hast gewonnen! ";
                 } else if(scorePlayerOne == scorePlayerTwo)
                 {
-                    playerWon =  " Unentschieden! Was fÃ¼r ein Kopf-an-Kopf Rennen. ";
+                    playerWon =  " Unentschieden! Was für ein Kopf-an-Kopf Rennen. ";
                 } else
                 {
-                    playerWon =  "Herzlichen GlÃ¼ckwunsch Spieler 2. Du hast gewonnen! ";
+                    playerWon =  "Herzlichen Glückwunsch Spieler 2. Du hast gewonnen! ";
                 }
 
-                responseText += "Das war's, das Spiel ist vorbei. Ihr habt euch toll geschlagen. Spieler 1, du hast " + scorePlayerOne + " Punkte erlangt. Spieler 2, du hast " + scorePlayerTwo + " Punkte erlangt." + playerWon + "Um nochmal zu Spielen sage einfach - Alexa - Ã¶ffne Magisches Zitate Raten. Bis dann!";
+                responseText += "Das war's, das Spiel ist vorbei. Ihr habt euch toll geschlagen. Spieler 1, du hast " + scorePlayerOne + " Punkte erlangt. Spieler 2, du hast " + scorePlayerTwo + " Punkte erlangt." + playerWon + "Um nochmal zu Spielen sage einfach - Alexa - öffne Magisches Zitate Raten. Bis dann!";
 
                 return input.getResponseBuilder()
                         .withSpeech(responseText)

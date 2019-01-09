@@ -25,7 +25,7 @@ public class EasyIntent implements RequestHandler {
         Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
 
-        String responseText = "Du hast leicht gew√§hlt.";
+        String responseText = "Du hast leicht gew‰hlt.";
 
         responseText += MethodUtils.startGame(0, (int) sessionAttributes.get(Attributes.PLAYERCOUNTER), input);
 
