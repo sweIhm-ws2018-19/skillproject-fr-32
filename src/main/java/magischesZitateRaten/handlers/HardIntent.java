@@ -4,7 +4,6 @@ import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
 import com.amazon.ask.model.Response;
 import com.amazon.ask.quiz.model.Attributes;
-import com.amazon.ask.quiz.model.MethodUtils;
 
 import java.util.Map;
 import java.util.Optional;
@@ -22,7 +21,6 @@ public class HardIntent implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput input) {
 
-        Map<String, Object> sessionAttributes = input.getAttributesManager().getSessionAttributes();
         /* DIES SOLL WIEDER IMPLEMENTIERT WERDEN int score = (int) sessionAttributes.get(Attributes.QUIZ_SCORE_KEY) */
 
         String responseText = "Du hast schwer gewählt.";
