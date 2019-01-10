@@ -9,13 +9,6 @@ import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
 
-double test = 2;
-private string bla = "blabla";
-//////////////////////////
-public string blub = "bla";
-////////////////
-private int c = 5;
-int g = 5;
 
 public class ExitSkillHandler implements RequestHandler {
 
