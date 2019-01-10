@@ -97,7 +97,28 @@ public class GamePlayIntent implements RequestHandler {
 
     }
 
+/*
 
+import com.amazon.ask.dispatcher.request.handler.HandlerInput;
+import com.amazon.ask.dispatcher.request.handler.RequestHandler;
+import com.amazon.ask.model.Response;
+import com.amazon.ask.quiz.model.Attributes;
+import com.amazon.ask.quiz.util.QuestionPack;
+import com.amazon.ask.quiz.util.QuestionDatabase;
+import com.amazon.ask.model.Slot;
+import com.amazon.ask.model.Request;
+import com.amazon.ask.model.Intent;
+import com.amazon.ask.model.IntentRequest;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+import java.util.Map;
+import java.util.Optional;
+
+import static com.amazon.ask.request.Predicates.intentName;
+import static com.amazon.ask.request.Predicates.sessionAttribute;
+*/
 
 }
 
