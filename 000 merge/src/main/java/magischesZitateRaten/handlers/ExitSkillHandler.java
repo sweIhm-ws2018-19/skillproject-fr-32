@@ -9,6 +9,11 @@ import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
 
+// aenderung
+int i = 0;
+int b = 7;
+/// aenderung
+
 public class ExitSkillHandler implements RequestHandler {
 
     public boolean canHandle(HandlerInput input) {
