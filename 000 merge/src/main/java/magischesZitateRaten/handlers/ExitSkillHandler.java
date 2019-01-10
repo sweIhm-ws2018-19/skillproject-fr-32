@@ -9,10 +9,10 @@ import java.util.Optional;
 
 import static com.amazon.ask.request.Predicates.intentName;
 
-// aenderung
-int i = 0;
-int b = 7;
-/// aenderung
+double test = 2;
+private string bla = "blabla";
+//////////////////////////
+//test
 
 public class ExitSkillHandler implements RequestHandler {
 
