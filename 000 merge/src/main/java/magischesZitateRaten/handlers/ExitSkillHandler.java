@@ -23,18 +23,3 @@ public class ExitSkillHandler implements RequestHandler {
     }
 
 }
-
-/*
-int b = 0;
-
-for (int x = 0; x >= int t = 10; x++){
-	
-	if ( x == 8)
-		System.out.println( "x  = 8")
-	else 
-		x = 9;
-}
-
-return 0;
-
-*/
