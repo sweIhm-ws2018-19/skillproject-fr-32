@@ -101,6 +101,3 @@ public class GamePlayIntent implements RequestHandler {
 
 }
 
-// int b = 0;
-// test file
-// git test
